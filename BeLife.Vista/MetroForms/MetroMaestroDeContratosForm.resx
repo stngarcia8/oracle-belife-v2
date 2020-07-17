@@ -1,0 +1,3619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="terminoVigenciaLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="resource.ImageAlign5" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoLabel.Name" xml:space="preserve">
+    <value>valorBaseContratoLabel</value>
+  </data>
+  <data name="resource.Size10" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="&gt;&gt;planLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Image16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Location17" type="System.Drawing.Point, System.Drawing">
+    <value>143, 1</value>
+  </data>
+  <data name="resource.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="planTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;terminoContratoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="primaAnualTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="declaracionDeSaludCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="nombreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 29</value>
+  </data>
+  <data name="&gt;&gt;inicioVigenciaDateTimePicker.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="informacionContratoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 20</value>
+  </data>
+  <data name="nombreTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;terminoVigenciaTextBox.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;planTextBox.Parent" xml:space="preserve">
+    <value>planTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;primaAnualLabel.Name" xml:space="preserve">
+    <value>primaAnualLabel</value>
+  </data>
+  <data name="resource.TextAlign11" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageIndex1" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;observacionesLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="rutLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textoMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numeroPolizaLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.BackgroundImageLayout2" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.TextImageRelation4" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="observacionesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;recargoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;contratoVigenteCheckBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;datosContratosMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="resource.TextAlign15" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.AccessibleName13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName17" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName14" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleName15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleDescription8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="limpiarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="&gt;&gt;valorPlanLabel.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="grabarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 566</value>
+  </data>
+  <data name="rutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="inicioContratoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.FlatStyle2" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="&gt;&gt;primaAnualLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="estadoCivilLabel.Text" xml:space="preserve">
+    <value>Estado civil:</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="limpiarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="valorBaseContratoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rutTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.AccessibleDescription15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.Size7" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="informacionDePlanLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="recargoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 400</value>
+  </data>
+  <data name="rutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilTextBox.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;rutButton.Name" xml:space="preserve">
+    <value>rutButton</value>
+  </data>
+  <data name="resource.Font10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Font14" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="limpiarButton.Text" xml:space="preserve">
+    <value>&amp;Limpiar controles</value>
+  </data>
+  <data name="resource.TextImageRelation14" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.BackgroundImageLayout16" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.BackgroundImageLayout13" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.TextImageRelation5" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="planComboBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="inicioVigenciaDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="resource.AutoSizeMode12" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="datosContratosMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 3</value>
+  </data>
+  <data name="resource.Visible14" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="inicioContratoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;planTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="inicioContratoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 342</value>
+  </data>
+  <data name="formularioPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 384</value>
+  </data>
+  <data name="cerrarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="apellidoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="primaAnualTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 429</value>
+  </data>
+  <data name="terminoVigenciaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.TabIndex9" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="declaracionDeSaludCheckBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.AccessibleDescription4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AutoSize10" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Anchor1" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15.75pt</value>
+  </data>
+  <data name="cancelarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="limpiarButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.AccessibleDescription3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;sexoLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="editarButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="planLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;nacimientoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="planComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.Anchor14" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Anchor5" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Anchor12" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Anchor13" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="informacionDePlanLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 215</value>
+  </data>
+  <data name="resource.Anchor11" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.MaximumSize4" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleManager.Name" xml:space="preserve">
+    <value>formularioMetroStyleManager</value>
+  </data>
+  <data name="resource.MaximumSize16" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="editarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 50</value>
+  </data>
+  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="primaAnualTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;terminoContratoLabel.Name" xml:space="preserve">
+    <value>terminoContratoLabel</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 47</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.Name" xml:space="preserve">
+    <value>textoMetroLabel</value>
+  </data>
+  <data name="resource.Dock6" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;formularioDeContratosMetroLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="resource.ImageAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="valorPlanLabel.Text" xml:space="preserve">
+    <value>Valor plan:</value>
+  </data>
+  <data name="cerrarButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ImageKey3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grabarButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textoMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 598</value>
+  </data>
+  <data name="resource.BackgroundImageLayout8" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 35</value>
+  </data>
+  <data name="planComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="planTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="planLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Location9" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="primaAnualLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="rutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.TabIndex16" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;terminoContratoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.MaximumSize11" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="numeroContratoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.Parent" xml:space="preserve">
+    <value>datosContratosMetroPanel</value>
+  </data>
+  <data name="numeroContratoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.AccessibleName6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="sexoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Image8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleDescription7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>129, 2</value>
+  </data>
+  <data name="&gt;&gt;explicacionRecargoTextBox.Name" xml:space="preserve">
+    <value>explicacionRecargoTextBox</value>
+  </data>
+  <data name="planLabel.Text" xml:space="preserve">
+    <value>Plan:</value>
+  </data>
+  <data name="declaracionDeSaludCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Size14" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="textoMetroLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="valorPlanTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 24</value>
+  </data>
+  <data name="apellidoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 131</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleExtender.Name" xml:space="preserve">
+    <value>formularioMetroStyleExtender</value>
+  </data>
+  <data name="planLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroPolizaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="formularioPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;formularioDeContratosMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="resource.TabIndex8" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.ImeMode14" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoLabel.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="resource.Image9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="nacimientoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout5" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.AccessibleName3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="estadoCivilTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroPolizaLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="opcionesMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.MaximumSize17" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="observacionesLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;rutTextBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="resource.AccessibleName7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;nombreLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="numeroDePolizaTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.Dock5" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="estadoCivilLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.BackgroundImage12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;informacionDePlanLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.RightToLeft13" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.FlatStyle4" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="rutLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="inicioVigenciaDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 371</value>
+  </data>
+  <data name="planTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="resource.ImageKey2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout10" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="formularioTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="nacimientoLabel.Text" xml:space="preserve">
+    <value>Fecha Nac.:</value>
+  </data>
+  <data name="valorBaseContratoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="nacimientoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.FlatStyle8" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.Location8" type="System.Drawing.Point, System.Drawing">
+    <value>129, 2</value>
+  </data>
+  <data name="&gt;&gt;valorPlanLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="contratoVigenteCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;sexoTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="resource.Font16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.TextImageRelation8" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;primaAnualTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.AccessibleDescription12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="inicioVigenciaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="estadoCivilTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 189</value>
+  </data>
+  <data name="resource.Font9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numeroContratoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.TextImageRelation1" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.TextImageRelation13" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="cerrarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 50</value>
+  </data>
+  <data name="nombreLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="inicioVigenciaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.AutoSizeMode16" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>19, 19</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="sexoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 29</value>
+  </data>
+  <data name="&gt;&gt;numeroPolizaLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="sexoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="formularioPictureBox" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="accionesMetroLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editarButton" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nuevoButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="eliminarButton" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cerrarButton" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,5,Percent,15,Percent,15,Percent,15,Percent,15,Percent,35" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="accionPictureBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="apellidoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 128</value>
+  </data>
+  <data name="resource.ImageKey17" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sexoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="nuevoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="explicacionRecargoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="grabarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="formularioTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="terminoContratoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.MaximumSize14" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.FlatStyle10" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="resource.Dock4" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="estadoCivilTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;rutTextBox.Name" xml:space="preserve">
+    <value>rutTextBox</value>
+  </data>
+  <data name="planTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 15</value>
+  </data>
+  <data name="planTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 30</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Visible6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="opcionesMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 592</value>
+  </data>
+  <data name="numeroContratoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nombreLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="declaracionDeSaludCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 458</value>
+  </data>
+  <data name="nacimientoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;inicioContratoLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 24</value>
+  </data>
+  <data name="observacionesTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;terminoContratoLabel.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="terminoContratoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="resource.Anchor17" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Font17" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rutButton.Text" xml:space="preserve">
+    <value>&amp;Buscar cliente</value>
+  </data>
+  <data name="resource.ImageAlign4" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="observacionesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="resource.TextAlign4" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.Image17" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;formularioDeContratosMetroLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.Font8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.MaximumSize1" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;recargoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.Name" xml:space="preserve">
+    <value>accionesMetroLabel</value>
+  </data>
+  <data name="observacionesLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="declaracionDeSaludCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 15</value>
+  </data>
+  <data name="estadoCivilLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
+  </data>
+  <data name="valorPlanLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 280</value>
+  </data>
+  <data name="resource.Size12" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="&gt;&gt;primaAnualLabel.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.ImageIndex2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoTextBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="resource.Image12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="nombreTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="nombreTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.AccessibleName5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.TextAlign10" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="terminoVigenciaTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="accionesMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;valorPlanTextBox.Name" xml:space="preserve">
+    <value>valorPlanTextBox</value>
+  </data>
+  <data name="inicioVigenciaDateTimePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="textoMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1051, 32</value>
+  </data>
+  <data name="contratoVigenteCheckBox.Text" xml:space="preserve">
+    <value>Contrato vigente.</value>
+  </data>
+  <data name="recargoLabel.Text" xml:space="preserve">
+    <value>Recargo:</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoLabel.Name" xml:space="preserve">
+    <value>numeroContratoLabel</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="estadoCivilTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.MaximumSize15" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.TextAlign14" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.RightToLeft3" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft2" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="apellidoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="terminoVigenciaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="resource.RightToLeft7" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="inicioVigenciaDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 33</value>
+  </data>
+  <data name="resource.RightToLeft5" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft4" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft9" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft8" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft11" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;inicioContratoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Seguros BeLife - Maestro de contratos.</value>
+  </data>
+  <data name="&gt;&gt;nacimientoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoLabel.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;terminoVigenciaLabel.Name" xml:space="preserve">
+    <value>terminoVigenciaLabel</value>
+  </data>
+  <data name="resource.AccessibleDescription14" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="accionPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 29</value>
+  </data>
+  <data name="valorBaseContratoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;terminoVigenciaLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="contratosTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nuevoButton.Text" xml:space="preserve">
+    <value>&amp;Nuevo contrato</value>
+  </data>
+  <data name="inicioVigenciaLabel.Text" xml:space="preserve">
+    <value>Inicio vigencia:</value>
+  </data>
+  <data name="valorPlanTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroContratoButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nacimientoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 29</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="planLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 30</value>
+  </data>
+  <data name="resource.BackgroundImageLayout17" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="editarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 590</value>
+  </data>
+  <data name="&gt;&gt;contratoVigenteCheckBox.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nombreLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.BackgroundImageLayout3" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Font12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.RightToLeft12" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;terminoVigenciaTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Name" xml:space="preserve">
+    <value>nombreTextBox</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Name" xml:space="preserve">
+    <value>ayudaMetroLabel</value>
+  </data>
+  <data name="resource.ImageAlign11" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageAlign10" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageAlign13" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageAlign12" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;informacionDePlanLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="eliminarButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ImageAlign17" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageAlign16" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.TextImageRelation16" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="ayudaMetroLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;editarButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="nuevoButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;nacimientoTextBox.Name" xml:space="preserve">
+    <value>nacimientoTextBox</value>
+  </data>
+  <data name="&gt;&gt;planTableLayoutPanel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.Dock7" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.Anchor6" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AutoSize2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;planTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.TextAlign12" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="inicioVigenciaDateTimePicker.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="sexoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 160</value>
+  </data>
+  <data name="resource.ImageIndex17" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="valorBaseContratoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.TextImageRelation12" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.ImageKey15" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.AutoSize16" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.ImageKey13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nombreLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.Name" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="informacionContratoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="resource.ImeMode4" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.RightToLeft10" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ImageKey11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nombreTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 131</value>
+  </data>
+  <data name="&gt;&gt;primaAnualTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="contratosTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cancelarButton" Row="18" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="grabarButton" Row="18" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="observacionesTextBox" Row="16" RowSpan="2" Column="1" ColumnSpan="3" /&gt;&lt;Control Name="valorBaseContratoTextBox" Row="13" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="terminoVigenciaLabel" Row="12" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="inicioVigenciaLabel" Row="12" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="inicioContratoLabel" Row="11" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="valorPlanTextBox" Row="9" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="planLabel" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="sexoTextBox" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="sexoLabel" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nacimientoTextBox" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="apellidoTextBox" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="apellidoLabel" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nombreLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="rutButton" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="rutTextBox" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="limpiarButton" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="accionPictureBox" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="formularioDeContratosMetroLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="numeroContratoButton" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="numeroContratoLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="numeroContratoTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="datosClienteLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="rutLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="informacionDePlanLabel" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="numeroPolizaLabel" Row="8" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="numeroDePolizaTextBox" Row="8" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="valorPlanLabel" Row="9" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="informacionContratoLabel" Row="10" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="inicioContratoTextBox" Row="11" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="terminoContratoLabel" Row="11" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="terminoContratoTextBox" Row="11" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="inicioVigenciaDateTimePicker" Row="12" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="terminoVigenciaTextBox" Row="12" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="valorBaseContratoLabel" Row="13" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="recargoLabel" Row="13" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="recargoTextBox" Row="13" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="primaAnualLabel" Row="14" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="primaAnualTextBox" Row="14" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="contratoVigenteCheckBox" Row="15" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="declaracionDeSaludCheckBox" Row="15" RowSpan="1" Column="2" ColumnSpan="2" /&gt;&lt;Control Name="observacionesLabel" Row="16" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nombreTextBox" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="estadoCivilLabel" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nacimientoLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="estadoCivilTextBox" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="explicacionRecargoTextBox" Row="14" RowSpan="1" Column="2" ColumnSpan="2" /&gt;&lt;Control Name="planTableLayoutPanel" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,6,060703,Percent,5,050586,Percent,6,060703,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,6,000096,Percent,5,080081,Percent,5,080081,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,5,050586,Percent,6,060703" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;nombreLabel.Name" xml:space="preserve">
+    <value>nombreLabel</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.Name" xml:space="preserve">
+    <value>accionPictureBox</value>
+  </data>
+  <data name="numeroContratoLabel.Text" xml:space="preserve">
+    <value>Número de contrato:</value>
+  </data>
+  <data name="estadoCivilTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.ImageAlign2" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="nacimientoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;informacionContratoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="explicacionRecargoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ayudaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>850, 5</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.Name" xml:space="preserve">
+    <value>nuevoButton</value>
+  </data>
+  <data name="resource.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Location14" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="resource.ImageAlign9" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="terminoContratoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 29</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="numeroContratoButton.Text" xml:space="preserve">
+    <value>&amp;Buscar contrato</value>
+  </data>
+  <data name="resource.Location12" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="planTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="sexoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 157</value>
+  </data>
+  <data name="valorPlanLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="resource.AutoSizeMode3" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.Name" xml:space="preserve">
+    <value>apellidoTextBox</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;terminoContratoTextBox.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="resource.TextAlign6" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="contratosTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resource.Location5" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="&gt;&gt;datosClienteLabel.Name" xml:space="preserve">
+    <value>datosClienteLabel</value>
+  </data>
+  <data name="formularioTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;planTextBox.Name" xml:space="preserve">
+    <value>planTextBox</value>
+  </data>
+  <data name="resource.TextAlign5" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.BackgroundImageLayout6" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Name" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioImageList.Name" xml:space="preserve">
+    <value>formularioImageList</value>
+  </data>
+  <data name="resource.Font3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="recargoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;recargoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="contratosTableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="rutTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.TextAlign16" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="observacionesLabel.Text" xml:space="preserve">
+    <value>Observaciones:</value>
+  </data>
+  <data name="resource.ImeMode16" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.AutoSize1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.Size16" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.ImageKey7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="inicioVigenciaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 29</value>
+  </data>
+  <data name="&gt;&gt;inicioContratoLabel.Name" xml:space="preserve">
+    <value>inicioContratoLabel</value>
+  </data>
+  <data name="resource.AccessibleDescription9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 750</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="datosClienteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 35</value>
+  </data>
+  <data name="resource.FlatStyle3" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="numeroContratoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 38</value>
+  </data>
+  <data name="resource.AccessibleName12" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="explicacionRecargoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 23</value>
+  </data>
+  <data name="accionesMetroLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="estadoCivilLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 29</value>
+  </data>
+  <data name="&gt;&gt;explicacionRecargoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.RightToLeft17" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="numeroContratoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="valorPlanLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Font4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageKey6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;declaracionDeSaludCheckBox.Name" xml:space="preserve">
+    <value>declaracionDeSaludCheckBox</value>
+  </data>
+  <data name="formularioPictureBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;valorPlanTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="accionesMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 23</value>
+  </data>
+  <data name="resource.ImageKey4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Dock1" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="accionPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="contratosTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>628, 592</value>
+  </data>
+  <data name="inicioContratoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;inicioVigenciaLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;numeroDePolizaTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;observacionesTextBox.Name" xml:space="preserve">
+    <value>observacionesTextBox</value>
+  </data>
+  <data name="resource.BackgroundImageLayout11" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.AccessibleName1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="datosClienteLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoTextBox.Name" xml:space="preserve">
+    <value>valorBaseContratoTextBox</value>
+  </data>
+  <data name="inicioVigenciaDateTimePicker.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="contratosTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="planTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="resource.Dock9" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="planLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 250</value>
+  </data>
+  <data name="resource.AutoSizeMode11" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;terminoContratoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="datosContratosMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>628, 592</value>
+  </data>
+  <data name="resource.AutoSizeMode2" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.Font5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="datosContratosMetroPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="accionesMetroLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="apellidoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="resource.Image10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;sexoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="sexoLabel.Text" xml:space="preserve">
+    <value>Sexo:</value>
+  </data>
+  <data name="resource.Size5" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="ayudaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 588</value>
+  </data>
+  <data name="datosClienteLabel.Text" xml:space="preserve">
+    <value>Datos del cliente.</value>
+  </data>
+  <data name="recargoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.Location4" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="&gt;&gt;informacionDePlanLabel.Name" xml:space="preserve">
+    <value>informacionDePlanLabel</value>
+  </data>
+  <data name="resource.ImageAlign15" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.Size6" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="inicioContratoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="apellidoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Font2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;limpiarButton.Name" xml:space="preserve">
+    <value>limpiarButton</value>
+  </data>
+  <data name="resource.TextImageRelation10" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.Anchor9" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.ImeMode15" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 90</value>
+  </data>
+  <data name="sexoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;valorPlanLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.Image4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="informacionDePlanLabel.Text" xml:space="preserve">
+    <value>Información del plan.</value>
+  </data>
+  <data name="resource.FlatStyle15" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="nacimientoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 160</value>
+  </data>
+  <data name="resource.TextImageRelation9" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;terminoVigenciaLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;declaracionDeSaludCheckBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.RightToLeft16" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.FlatStyle11" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="accionesMetroLabel.Text" xml:space="preserve">
+    <value>Acciones disponibles.</value>
+  </data>
+  <data name="formularioPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="recargoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="recargoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;valorPlanTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;primaAnualTextBox.Name" xml:space="preserve">
+    <value>primaAnualTextBox</value>
+  </data>
+  <data name="rutButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inicioVigenciaLabel.Name" xml:space="preserve">
+    <value>inicioVigenciaLabel</value>
+  </data>
+  <data name="valorBaseContratoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.AccessibleName4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.TabIndex11" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.Text" xml:space="preserve">
+    <value>Formulario de contratos.</value>
+  </data>
+  <data name="resource.ImageAlign7" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImageAlign8" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="explicacionRecargoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 429</value>
+  </data>
+  <data name="resource.Dock8" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.ImeMode5" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;planComboBox.Parent" xml:space="preserve">
+    <value>planTableLayoutPanel</value>
+  </data>
+  <data name="resource.Image14" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImageIndex5" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.AutoSize3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.ImageIndex12" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.AutoSizeMode1" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="textoMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.Name" xml:space="preserve">
+    <value>nacimientoLabel</value>
+  </data>
+  <data name="resource.ImageKey9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroPolizaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="resource.AccessibleDescription2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Size8" type="System.Drawing.Size, System.Drawing">
+    <value>19, 19</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="nombreLabel.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="resource.Location10" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="numeroContratoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="planTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Location7" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="nuevoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="resource.Visible15" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numeroContratoButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;recargoTextBox.Name" xml:space="preserve">
+    <value>recargoTextBox</value>
+  </data>
+  <data name="&gt;&gt;valorPlanLabel.Name" xml:space="preserve">
+    <value>valorPlanLabel</value>
+  </data>
+  <data name="inicioVigenciaLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.ImageAlign1" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="informacionContratoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroPolizaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 250</value>
+  </data>
+  <data name="resource.BackgroundImageLayout4" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="inicioContratoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 339</value>
+  </data>
+  <data name="valorPlanTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="planTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="planTextBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="planComboBox" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="primaAnualLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 426</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;inicioContratoTextBox.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="resource.ImageIndex3" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="terminoContratoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 342</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="accionPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="nombreTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ayudaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.RightToLeft15" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.TextAlign17" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.FlatStyle5" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.ImageIndex7" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;terminoVigenciaTextBox.Name" xml:space="preserve">
+    <value>terminoVigenciaTextBox</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="accionesMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;terminoContratoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;rutButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="cerrarButton.Text" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="editarButton.Text" xml:space="preserve">
+    <value>&amp;Editar contrato</value>
+  </data>
+  <data name="resource.Image5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage4" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="informacionContratoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="cancelarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="planTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 250</value>
+  </data>
+  <data name="resource.BackgroundImage8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.BackgroundImage11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleDescription17" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="formularioTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="inicioContratoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nuevoButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;inicioContratoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="numeroContratoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 38</value>
+  </data>
+  <data name="resource.Font13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="cancelarButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="resource.Font7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;inicioContratoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.TextImageRelation6" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.BackgroundImageLayout14" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="contratoVigenteCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 458</value>
+  </data>
+  <data name="formularioPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="resource.Location6" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="observacionesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 484</value>
+  </data>
+  <data name="resource.AutoSizeMode15" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="resource.Dock17" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.Size11" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="observacionesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 487</value>
+  </data>
+  <data name="eliminarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 208</value>
+  </data>
+  <data name="resource.ImageIndex8" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.Name" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="resource.Dock11" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.ImeMode13" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.AutoSize13" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSize6" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;inicioVigenciaLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="terminoContratoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="resource.AutoSize15" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="inicioContratoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.FlatStyle13" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Anchor7" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;declaracionDeSaludCheckBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numeroContratoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="valorBaseContratoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="formularioImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABS
+        DgAAAk1TRnQBSQFMAgEBBAEAAXABAAF8AQABGQEAARkBAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABZAMAATIDAAEBAQABCAUAAYgBExgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP//wD/AP8A/wD/AP8A
+        /wD/AP8A0QABjRKMAfMGABKMBQATjAcAAf8SjAYAAY0BjBD/AYwB8wUAFIwDAAEHE4wHABSMBQABjQGM
+        EAABjAHzBQACjBAAAowDAAKMAfQPAAKMBwACjBAAAowFAAGNAYwLAAGCAowCAAGMAfMFAAKMCAACjAH/
+        BQACjAMAAowB9A8AAowHAAKMEAACjAUAAY0BjAUACIwDAAGMAfMFAAKMCAACjAH/BQACjAMAAowB9AYA
+        Af8BjAGNBgACjAcAAowFAAKMBAACjAMAAowFAAGNAYwEAAGMAY0EAAH3AYwEAAGMAfMFAAKMCAACjAH/
+        BQACjAMAAowB9AYABIwFAAKMBwACjAQAAY0DjAIABIwCAAKMBQABjQGMAwABjAG2BgABvAGMAwABjAHz
+        BQACjAgAAowB/wUAAowDAAKMAfQFAAaMAYIDAAKMBwACjAUAAY0HjAMAAowFAAGNAYwCAAH/AYwIAAGM
+        AfMCAAGMAfMFAAKMAwAB8wuMAQACjAMAAowB9AUAAowB9AEABIwCAAKMBwACjAYAAY0FjAQAAowFAAGN
+        AYwCAAKMCAACjAIAAYwB8wUAAowDAAHzC4wBAAKMAwACjAH0BAADjAMAAfMEjAkAAowHAASMBQACjAUA
+        AY0BjAIAAYwB9wgAAfcBjAIAAYwB8wUAAowDAAHzC4wBAAKMAwACjAH0AwABggKMBgAEjAH/BwACjAYA
+        BowEAAKMBQABjQGMAgABjQGMCAABjAGCAgABjAHzBQACjAgAAowB/wUAAowDAAKMAfQEAAGMAfAHAAH/
+        BIwGAAKMBQAEjAGNA4wDAAKMBQABjQGMAwABjAgAAYwDAAGMAfMFAAKMCAACjAH/BQACjAMAAowB9A8A
+        BIwB8wQAAowEAASMAgABjQOMAgACjAUAAY0BjAMAAowGAAKMAwABjAHzBQACjAgAAowB/wUAAowDAAKM
+        AfQRAAOMBAACjAUAAYIBjAQAAY0BjAMAAowFAAGNAYwEAAKMAfACAAHwAowEAAGMAfMFAAKMCAACjAH/
+        BQACjAMAAowB9A8AAYwB/wEAAYIBjAQAAowQAAKMBQABjQGMBQAB9ASMAfQFAAGMAfMFAAKMEAACjAMA
+        AowB9A8AAowHAAKMEAACjAUAAY0BjBAAAYwB8wUAB4wLAAKMAwAHjAH/CgACjAcAB4wLAAKMBQABjQGM
+        EAABjAHzBgAHjAoAAowEAAGCBowB/wkAAowIAAeMCgACjAUAAY0BjBAAAYwB8wcABowB/wkAAowFAAeM
+        CQACjAkABowB/wkAAowFAAGNAYwLAAaMAfMIAAWMAfIJAAKMBgAGjAkAAowKAAWMAfQJAAKMBQABjQGM
+        CwAGjAoABIwBvAkAAowHAAWMCQACjAoAAf8EjAHyCQACjAUAAY0BjAsABYwMAAOMAbYJAAKMCAAEjAkA
+        AowMAAOMAbwJAAKMBQABjQGMCwAEjA4AA4wJAAKMCQADjAkAAowMAAH/AowBtgkAAowFAAGNAYwLAAOM
+        DwAB/w2MCgACjAm2AowNAAHzAYwBjQjvAY0CjAUAAY0OjBEAAf8LjAwADIwOAAHwC4wB/wUAAY0NjCsA
+        CYwRAAGNCIwBjQQAAUIBTQE+BwABPgMAASgDAAFkAwABMgMAAQEBAAEBBQABIAEDFgAD//8AkgAB4AEA
+        AQEB+AEAAQEB8AEAAQEB/AIAAXADAAHgAQABAQHwAgAB4AEAAQEB/AIAATADAAHnAf8B+QHzAf8B/AHj
+        Af8B+QH8Av8BMAMAAecB/wEZAfMB/AF8AeMB/wH5AfwC/wEwAwAB5wHAATkB8wH8AXwB4wHxAfkB/AH5
+        AecBMAMAAecBngF5AfMB/AF8AeMB8AH5AfwB8AHDATADAAHnAT8BOQHzAfwBfAHjAeABOQH8AfgBBwEw
+        AwAB5gF/AZkB8wGAAQQB4wHiARkC/AEPATADAAHmAX8BmQHzAYABBAHjAccBBwH8Af4BHwEwAwAB5gF/
+        AZkB8wGAAQQB4wGPAcEC/AEPATADAAHmAX8BmQHzAfwBfAHjAc8B4AH8AfgBBwEwAwAB5wF/AbkB8wH8
+        AXwB4wH/AfgBPAHwAcMBMAMAAecBPwE5AfMB/AF8AeMB/wH+ATwB+QHnATADAAHnAYwBeQHzAfwBfAHj
+        Af8B+QE8Av8BMAMAAecBwAH5AfMB/wH8AeMB/wH5AfwC/wEwAwAB5wH/AfkB8AEfAfwB4AEfAfkB/AEH
+        Af8BMAMAAecB/wH5AfgBDwH8AfABDwH5Af4BAwH/ATADAAHnAf8B+QH8AQcB/AH4AQ8B+QH/AQEB/wEw
+        AwAB5wH/AQEB/gEHAvwBDwH5Af8BgQH/ATADAAHnAf8BAwH/AQcB/AH+AQ8B+QH/AYEB/wEwAwAB5wH/
+        AQcB/wGHAfwB/wEPAfkB/wHhAf8BMAMAAecB/wEPAf8BxwH8Af8BjwH5Af8B4QH/ATADAAHnAf8BHwH/
+        AcABAAH/AcABAQH/AfABAAEwAwAB4AEAAT8B/wHgAQEB/wHgAQEB/wH4AQABMAMAAeABAAF/BP8B8AEH
+        Af8B/AEAAfAZAAs=
+</value>
+  </data>
+  <data name="&gt;&gt;editarButton.Name" xml:space="preserve">
+    <value>editarButton</value>
+  </data>
+  <data name="sexoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;observacionesLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.RightToLeft14" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;contratoVigenteCheckBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroToolTip.Name" xml:space="preserve">
+    <value>formularioMetroToolTip</value>
+  </data>
+  <data name="rutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 29</value>
+  </data>
+  <data name="&gt;&gt;valorPlanTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;editarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.ImeMode7" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="formularioPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 203</value>
+  </data>
+  <data name="&gt;&gt;explicacionRecargoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.AutoSize12" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;datosClienteLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;planComboBox.Name" xml:space="preserve">
+    <value>planComboBox</value>
+  </data>
+  <data name="eliminarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 50</value>
+  </data>
+  <data name="cerrarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="contratoVigenteCheckBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sexoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="formularioTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="textoMetroLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="ayudaMetroLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="opcionesMetroPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="datosContratosMetroPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,60,Percent,20" /&gt;&lt;Rows Styles="Percent,95,Percent,5,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="resource.BackgroundImageLayout7" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.TabIndex13" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;datosContratosMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.AccessibleDescription16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AutoSizeMode7" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.Font6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.TextImageRelation3" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="contratosTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.TabIndex15" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.TextAlign1" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 400</value>
+  </data>
+  <data name="resource.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.AutoSize5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;primaAnualLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="resource.Visible17" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="estadoCivilLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Location16" type="System.Drawing.Point, System.Drawing">
+    <value>286, 1</value>
+  </data>
+  <data name="resource.AccessibleName9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="informacionDePlanLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="resource.Size17" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="formularioDeContratosMetroLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rutTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.ImeMode12" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.TextAlign8" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="informacionContratoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="planTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="observacionesTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;numeroPolizaLabel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;editarButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="observacionesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 52</value>
+  </data>
+  <data name="&gt;&gt;datosContratosMetroPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="planTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoButton.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="declaracionDeSaludCheckBox.Text" xml:space="preserve">
+    <value>Declaración de salud.</value>
+  </data>
+  <data name="resource.FlatStyle14" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Size9" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="numeroContratoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;limpiarButton.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="valorPlanTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="primaAnualLabel.Text" xml:space="preserve">
+    <value>Prima anual:</value>
+  </data>
+  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;observacionesLabel.Name" xml:space="preserve">
+    <value>observacionesLabel</value>
+  </data>
+  <data name="resource.ImageAlign14" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.MaximumSize10" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="planComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="resource.FlatStyle7" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="&gt;&gt;planTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grabarButton.Text" xml:space="preserve">
+    <value>&amp;Grabar</value>
+  </data>
+  <data name="resource.FlatStyle1" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="grabarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 2</value>
+  </data>
+  <data name="resource.TextAlign7" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MetroMaestroDeContratosForm</value>
+  </data>
+  <data name="resource.TextAlign2" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.AutoSizeMode6" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.Font1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;planLabel.Name" xml:space="preserve">
+    <value>planLabel</value>
+  </data>
+  <data name="valorBaseContratoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 397</value>
+  </data>
+  <data name="nombreLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valorBaseContratoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 400</value>
+  </data>
+  <data name="resource.AccessibleDescription10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;cerrarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.Visible12" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.Font15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="declaracionDeSaludCheckBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="apellidoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="informacionContratoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 319</value>
+  </data>
+  <data name="contratoVigenteCheckBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="planComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="resource.TextImageRelation2" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.RightToLeft1" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="inicioContratoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.AutoSizeMode13" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="numeroDePolizaTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 24</value>
+  </data>
+  <data name="resource.ImeMode11" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="datosClienteLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.AutoSize4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>34, 90, 34, 30</value>
+  </data>
+  <data name="resource.TextImageRelation11" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleExtender.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleExtender, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.TextImageRelation17" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.Dock13" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="datosClienteLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="resource.BackgroundImage13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numeroPolizaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="recargoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="primaAnualTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="resource.AutoSize17" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.ImageKey10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Anchor16" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.Dock12" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cancelarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 566</value>
+  </data>
+  <data name="resource.FlatStyle16" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Anchor2" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="rutTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="cancelarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="valorBaseContratoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 29</value>
+  </data>
+  <data name="rutTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="resource.Image6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="recargoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="rutLabel.Text" xml:space="preserve">
+    <value>Rut:</value>
+  </data>
+  <data name="opcionesMetroPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grabarButton.Name" xml:space="preserve">
+    <value>grabarButton</value>
+  </data>
+  <data name="&gt;&gt;recargoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.Anchor4" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="primaAnualLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;planComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nombreLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="valorBaseContratoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ImeMode9" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.Location15" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="resource.Image11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="inicioContratoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rutButton.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ImeMode3" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="terminoContratoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="planTableLayoutPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="resource.ImageAlign6" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="resource.ImeMode6" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.BackgroundImageLayout9" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleManager.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="contratoVigenteCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resource.Image15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.AccessibleDescription6" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.Name" xml:space="preserve">
+    <value>sexoLabel</value>
+  </data>
+  <data name="planComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="resource.Location3" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="resource.TabIndex17" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="datosClienteLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="rutTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.Name" xml:space="preserve">
+    <value>rutLabel</value>
+  </data>
+  <data name="terminoVigenciaLabel.Text" xml:space="preserve">
+    <value>Termino vigencia:</value>
+  </data>
+  <data name="&gt;&gt;numeroDePolizaTextBox.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="editarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="resource.AccessibleDescription11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="apellidoLabel.Text" xml:space="preserve">
+    <value>Apellidos:</value>
+  </data>
+  <data name="recargoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 29</value>
+  </data>
+  <data name="&gt;&gt;planComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;explicacionRecargoTextBox.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="terminoVigenciaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 368</value>
+  </data>
+  <data name="nacimientoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="valorPlanLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nacimientoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;terminoVigenciaTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="planComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="resource.ImeMode17" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;numeroPolizaLabel.Name" xml:space="preserve">
+    <value>numeroPolizaLabel</value>
+  </data>
+  <data name="resource.TabIndex6" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Anchor15" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.AccessibleName8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="planTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="observacionesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="grabarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="terminoVigenciaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="terminoVigenciaTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="planTableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="datosContratosMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="accionPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.AccessibleDescription5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ayudaMetroLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="rutTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 102</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 630</value>
+  </data>
+  <data name="resource.ImageIndex6" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;sexoTextBox.Name" xml:space="preserve">
+    <value>sexoTextBox</value>
+  </data>
+  <data name="&gt;&gt;primaAnualTextBox.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="inicioVigenciaLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cerrarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 296</value>
+  </data>
+  <data name="nuevoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 50</value>
+  </data>
+  <data name="resource.BackgroundImage15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.TextImageRelation7" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="resource.Dock3" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="editarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nombreLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 128</value>
+  </data>
+  <data name="resource.AutoSizeMode8" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="resource.AutoSizeMode4" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="valorPlanTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 283</value>
+  </data>
+  <data name="&gt;&gt;declaracionDeSaludCheckBox.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="accionPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="valorPlanLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;limpiarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.BackgroundImageLayout15" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="resource.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="nacimientoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 157</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.Dock14" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="nacimientoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;terminoContratoTextBox.Name" xml:space="preserve">
+    <value>terminoContratoTextBox</value>
+  </data>
+  <data name="&gt;&gt;informacionContratoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.Name" xml:space="preserve">
+    <value>eliminarButton</value>
+  </data>
+  <data name="eliminarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="rutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 102</value>
+  </data>
+  <data name="resource.Visible11" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;informacionContratoLabel.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;nacimientoTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="terminoVigenciaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="resource.BackgroundImageLayout12" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="inicioContratoLabel.Text" xml:space="preserve">
+    <value>Fecha inicio:</value>
+  </data>
+  <data name="resource.TabIndex7" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="numeroDePolizaTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="terminoContratoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Anchor8" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="datosClienteLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;informacionContratoLabel.Name" xml:space="preserve">
+    <value>informacionContratoLabel</value>
+  </data>
+  <data name="resource.AutoSizeMode17" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.Visible4" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.Visible7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.TabIndex5" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.Name" xml:space="preserve">
+    <value>apellidoLabel</value>
+  </data>
+  <data name="resource.Visible3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="opcionesMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="terminoContratoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.Location13" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="resource.Visible8" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="contratosTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.Name" xml:space="preserve">
+    <value>formularioPictureBox</value>
+  </data>
+  <data name="inicioVigenciaDateTimePicker.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="resource.ImageKey16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planTableLayoutPanel.Name" xml:space="preserve">
+    <value>planTableLayoutPanel</value>
+  </data>
+  <data name="numeroPolizaLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.AutoSizeMode10" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.ImageIndex4" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;observacionesTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="informacionDePlanLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="resource.Image13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Visible9" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.MaximumSize12" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.RightToLeft6" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="nuevoButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.TabIndex10" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="numeroContratoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;observacionesLabel.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="resource.BackgroundImage14" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;informacionDePlanLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="resource.Dock2" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;numeroDePolizaTextBox.Name" xml:space="preserve">
+    <value>numeroDePolizaTextBox</value>
+  </data>
+  <data name="numeroContratoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;recargoTextBox.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="informacionDePlanLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valorPlanLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;valorBaseContratoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;sexoTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.TextImageRelation15" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="recargoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroContratoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 29</value>
+  </data>
+  <data name="resource.FlatStyle12" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.ImageIndex9" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageIndex16" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.Location11" type="System.Drawing.Point, System.Drawing">
+    <value>129, 1</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="resource.ImageIndex15" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="opcionesMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="resource.ImageIndex13" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageIndex10" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImageIndex11" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="terminoVigenciaLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Visible13" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="observacionesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="&gt;&gt;observacionesTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="terminoContratoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 339</value>
+  </data>
+  <data name="&gt;&gt;datosContratosMetroPanel.Name" xml:space="preserve">
+    <value>datosContratosMetroPanel</value>
+  </data>
+  <data name="sexoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sexoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Name" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="formularioPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numeroDePolizaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 253</value>
+  </data>
+  <data name="&gt;&gt;inicioVigenciaDateTimePicker.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="primaAnualTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.AutoSize9" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="eliminarButton.Text" xml:space="preserve">
+    <value>&amp;Terminar contrato</value>
+  </data>
+  <data name="terminoVigenciaTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 371</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoTextBox.Name" xml:space="preserve">
+    <value>numeroContratoTextBox</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroToolTip.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroToolTip, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.Name" xml:space="preserve">
+    <value>estadoCivilLabel</value>
+  </data>
+  <data name="rutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 99</value>
+  </data>
+  <data name="resource.BackgroundImage10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;inicioVigenciaDateTimePicker.Name" xml:space="preserve">
+    <value>inicioVigenciaDateTimePicker</value>
+  </data>
+  <data name="resource.TextAlign9" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;observacionesTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;planLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.Size13" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex4" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.AccessibleName2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Visible10" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textoMetroLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;planTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="contratoVigenteCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 15</value>
+  </data>
+  <data name="&gt;&gt;inicioVigenciaLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nacimientoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.AutoSizeMode5" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="recargoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rutButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;datosClienteLabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="resource.FlatStyle6" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.MaximumSize7" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaximumSize6" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaximumSize5" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.AutoSize7" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.MaximumSize3" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaximumSize2" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="limpiarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 38</value>
+  </data>
+  <data name="resource.ImageIndex14" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="resource.ImeMode8" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.MaximumSize9" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaximumSize8" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.MaximumSize13" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.Visible5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="resource.Font11" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;estadoCivilTextBox.Name" xml:space="preserve">
+    <value>estadoCivilTextBox</value>
+  </data>
+  <data name="resource.BackgroundImage17" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ayudaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="numeroContratoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="resource.AutoSize14" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;inicioContratoTextBox.Name" xml:space="preserve">
+    <value>inicioContratoTextBox</value>
+  </data>
+  <data name="&gt;&gt;numeroDePolizaTextBox.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="informacionContratoLabel.Text" xml:space="preserve">
+    <value>Información del contrato.</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoButton.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="contratosTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="resource.Anchor10" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.Name" xml:space="preserve">
+    <value>cerrarButton</value>
+  </data>
+  <data name="&gt;&gt;inicioVigenciaDateTimePicker.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="resource.ImageKey8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="accionPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 3</value>
+  </data>
+  <data name="resource.AutoSizeMode14" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="resource.AccessibleDescription13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="inicioVigenciaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 368</value>
+  </data>
+  <data name="resource.FlatStyle9" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="resource.Dock16" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="planTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;recargoLabel.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="primaAnualLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;contratoVigenteCheckBox.Name" xml:space="preserve">
+    <value>contratoVigenteCheckBox</value>
+  </data>
+  <data name="eliminarButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.AutoSize8" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="valorBaseContratoLabel.Text" xml:space="preserve">
+    <value>Valor base:</value>
+  </data>
+  <data name="resource.AutoSizeMode9" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="recargoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 397</value>
+  </data>
+  <data name="primaAnualLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="limpiarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="accionesMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="numeroPolizaLabel.Text" xml:space="preserve">
+    <value>Número poliza:</value>
+  </data>
+  <data name="accionPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;recargoLabel.Name" xml:space="preserve">
+    <value>recargoLabel</value>
+  </data>
+  <data name="cancelarButton.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="resource.BackgroundImageLayout1" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="datosContratosMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;rutButton.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioDeContratosMetroLabel.Name" xml:space="preserve">
+    <value>formularioDeContratosMetroLabel</value>
+  </data>
+  <data name="estadoCivilLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="explicacionRecargoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroDePolizaTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="textoMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="eliminarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="terminoContratoLabel.Text" xml:space="preserve">
+    <value>Fecha termino:</value>
+  </data>
+  <data name="resource.ImageKey5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="estadoCivilLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="resource.Image7" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;terminoVigenciaLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="terminoVigenciaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 29</value>
+  </data>
+  <data name="terminoContratoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="planLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="valorBaseContratoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.Parent" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="resource.FlatStyle17" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="numeroContratoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.ImeMode10" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="resource.Anchor3" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="resource.TextAlign13" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;datosClienteLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.ImageKey14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.TextAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.Name" xml:space="preserve">
+    <value>cancelarButton</value>
+  </data>
+  <data name="&gt;&gt;limpiarButton.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="resource.Size15" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="terminoContratoTextBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.ImageKey12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="apellidoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.BackgroundImage16" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="apellidoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;formularioImageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.Visible16" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.Dock15" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.Size4" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="&gt;&gt;numeroContratoButton.Name" xml:space="preserve">
+    <value>numeroContratoButton</value>
+  </data>
+  <data name="resource.TabIndex12" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;inicioContratoLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="resource.AccessibleDescription1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Dock10" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="resource.ImageKey1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.AutoSize11" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="resource.TabIndex14" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="apellidoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="apellidoLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="formularioMetroStyleExtender.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>199, 17</value>
+  </metadata>
+  <metadata name="formularioImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 17</value>
+  </metadata>
+  <metadata name="grabarButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cancelarButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="formularioMetroToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="limpiarButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="contratosTableLayoutPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="formularioMetroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+</root>

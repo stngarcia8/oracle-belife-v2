@@ -1,0 +1,1551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ayudaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ayudaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 5</value>
+  </data>
+  <data name="ayudaMetroLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="formularioTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textoMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textoMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textoMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 598</value>
+  </data>
+  <data name="textoMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1051, 32</value>
+  </data>
+  <data name="textoMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.Name" xml:space="preserve">
+    <value>textoMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;textoMetroLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="formularioPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="formularioPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="formularioPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 384</value>
+  </data>
+  <data name="formularioPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 203</value>
+  </data>
+  <data name="formularioPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="formularioPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.Name" xml:space="preserve">
+    <value>formularioPictureBox</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioPictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="accionesMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="accionesMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="accionesMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="accionesMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="accionesMetroLabel.Text" xml:space="preserve">
+    <value>Acciones disponibles.</value>
+  </data>
+  <data name="accionesMetroLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.Name" xml:space="preserve">
+    <value>accionesMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;accionesMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="editarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="editarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="editarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 50</value>
+  </data>
+  <data name="editarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="editarButton.Text" xml:space="preserve">
+    <value>&amp;Editar cliente</value>
+  </data>
+  <data name="&gt;&gt;editarButton.Name" xml:space="preserve">
+    <value>editarButton</value>
+  </data>
+  <data name="&gt;&gt;editarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;editarButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;editarButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nuevoButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nuevoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="nuevoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 50</value>
+  </data>
+  <data name="nuevoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="nuevoButton.Text" xml:space="preserve">
+    <value>&amp;Nuevo cliente</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.Name" xml:space="preserve">
+    <value>nuevoButton</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nuevoButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="eliminarButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="eliminarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="eliminarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 208</value>
+  </data>
+  <data name="eliminarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 50</value>
+  </data>
+  <data name="eliminarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="eliminarButton.Text" xml:space="preserve">
+    <value>E&amp;liminar cliente</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.Name" xml:space="preserve">
+    <value>eliminarButton</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;eliminarButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cerrarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cerrarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 296</value>
+  </data>
+  <data name="cerrarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 50</value>
+  </data>
+  <data name="cerrarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cerrarButton.Text" xml:space="preserve">
+    <value>cerrar</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.Name" xml:space="preserve">
+    <value>cerrarButton</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.Parent" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;cerrarButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 590</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.Name" xml:space="preserve">
+    <value>opcionesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.Parent" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;opcionesTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="opcionesTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="formularioPictureBox" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="accionesMetroLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="editarButton" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nuevoButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="eliminarButton" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="cerrarButton" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,5,Percent,15,Percent,15,Percent,15,Percent,15,Percent,35" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="opcionesMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="opcionesMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="opcionesMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 592</value>
+  </data>
+  <data name="opcionesMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Name" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="formularioMetroStyleExtender.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>199, 17</value>
+  </metadata>
+  <data name="datosClienteTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="estadoCivilLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="estadoCivilLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="estadoCivilLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 308</value>
+  </data>
+  <data name="estadoCivilLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="estadoCivilLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="estadoCivilLabel.Text" xml:space="preserve">
+    <value>Estado civil:</value>
+  </data>
+  <data name="estadoCivilLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.Name" xml:space="preserve">
+    <value>estadoCivilLabel</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="datosPersonalesMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="datosPersonalesMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="datosPersonalesMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 44</value>
+  </data>
+  <data name="datosPersonalesMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="datosPersonalesMetroLabel.Text" xml:space="preserve">
+    <value>Datos personales del cliente.</value>
+  </data>
+  <data name="datosPersonalesMetroLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroLabel.Name" xml:space="preserve">
+    <value>datosPersonalesMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="accionPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="accionPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="accionPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="accionPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 3</value>
+  </data>
+  <data name="accionPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 38</value>
+  </data>
+  <data name="accionPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="accionPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.Name" xml:space="preserve">
+    <value>accionPictureBox</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;accionPictureBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rutLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="rutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 44</value>
+  </data>
+  <data name="rutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 22</value>
+  </data>
+  <data name="rutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rutLabel.Text" xml:space="preserve">
+    <value>Rut:</value>
+  </data>
+  <data name="rutLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.Name" xml:space="preserve">
+    <value>rutLabel</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;rutLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="limpiarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="limpiarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 69</value>
+  </data>
+  <data name="limpiarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 23</value>
+  </data>
+  <data name="limpiarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="limpiarButton.Text" xml:space="preserve">
+    <value>&amp;Limpiar controles</value>
+  </data>
+  <data name="&gt;&gt;limpiarButton.Name" xml:space="preserve">
+    <value>limpiarButton</value>
+  </data>
+  <data name="&gt;&gt;limpiarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;limpiarButton.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;limpiarButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="estadoCivilComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="estadoCivilComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="estadoCivilComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 333</value>
+  </data>
+  <data name="estadoCivilComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 29</value>
+  </data>
+  <data name="estadoCivilComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilComboBox.Name" xml:space="preserve">
+    <value>estadoCivilComboBox</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilComboBox.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;estadoCivilComboBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 1</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rutTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="rutTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 69</value>
+  </data>
+  <data name="rutTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 23</value>
+  </data>
+  <data name="rutTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rutTextBox.Name" xml:space="preserve">
+    <value>rutTextBox</value>
+  </data>
+  <data name="&gt;&gt;rutTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;rutTextBox.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;rutTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buscarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="buscarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 69</value>
+  </data>
+  <data name="buscarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="buscarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buscarButton.Text" xml:space="preserve">
+    <value>&amp;Buscar cliente</value>
+  </data>
+  <data name="&gt;&gt;buscarButton.Name" xml:space="preserve">
+    <value>buscarButton</value>
+  </data>
+  <data name="&gt;&gt;buscarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;buscarButton.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;buscarButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="nombreLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nombreLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="nombreLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 132</value>
+  </data>
+  <data name="nombreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 22</value>
+  </data>
+  <data name="nombreLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="nombreLabel.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="nombreLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;nombreLabel.Name" xml:space="preserve">
+    <value>nombreLabel</value>
+  </data>
+  <data name="&gt;&gt;nombreLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nombreLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nombreLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="sexoComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="sexoComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="sexoComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 245</value>
+  </data>
+  <data name="sexoComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 29</value>
+  </data>
+  <data name="sexoComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;sexoComboBox.Name" xml:space="preserve">
+    <value>sexoComboBox</value>
+  </data>
+  <data name="&gt;&gt;sexoComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sexoComboBox.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;sexoComboBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="apellidoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apellidoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="apellidoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 132</value>
+  </data>
+  <data name="apellidoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="apellidoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="apellidoLabel.Text" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="apellidoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.Name" xml:space="preserve">
+    <value>apellidoLabel</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;apellidoLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="nacimientoDateTimePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="nacimientoDateTimePicker.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nacimientoDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 245</value>
+  </data>
+  <data name="nacimientoDateTimePicker.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="nacimientoDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 33</value>
+  </data>
+  <data name="nacimientoDateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;nacimientoDateTimePicker.Name" xml:space="preserve">
+    <value>nacimientoDateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;nacimientoDateTimePicker.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroDateTime, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nacimientoDateTimePicker.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nacimientoDateTimePicker.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="sexoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sexoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="sexoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 220</value>
+  </data>
+  <data name="sexoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="sexoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="sexoLabel.Text" xml:space="preserve">
+    <value>Sexo:</value>
+  </data>
+  <data name="sexoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.Name" xml:space="preserve">
+    <value>sexoLabel</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;sexoLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>232, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nombreTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nombreTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 157</value>
+  </data>
+  <data name="nombreTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 23</value>
+  </data>
+  <data name="nombreTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Name" xml:space="preserve">
+    <value>nombreTextBox</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>234, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="apellidoTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="apellidoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 157</value>
+  </data>
+  <data name="apellidoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 23</value>
+  </data>
+  <data name="apellidoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.Name" xml:space="preserve">
+    <value>apellidoTextBox</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;apellidoTextBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="nacimientoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nacimientoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="nacimientoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 220</value>
+  </data>
+  <data name="nacimientoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="nacimientoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="nacimientoLabel.Text" xml:space="preserve">
+    <value>Fecha de nacimiento:</value>
+  </data>
+  <data name="nacimientoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.Name" xml:space="preserve">
+    <value>nacimientoLabel</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nacimientoLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="grabarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="grabarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 399</value>
+  </data>
+  <data name="grabarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="grabarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="grabarButton.Text" xml:space="preserve">
+    <value>&amp;Grabar</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.Name" xml:space="preserve">
+    <value>grabarButton</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;grabarButton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cancelarButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cancelarButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 399</value>
+  </data>
+  <data name="cancelarButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 23</value>
+  </data>
+  <data name="cancelarButton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cancelarButton.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.Name" xml:space="preserve">
+    <value>cancelarButton</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.Parent" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;cancelarButton.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="datosClienteTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="datosClienteTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="datosClienteTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="datosClienteTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 466</value>
+  </data>
+  <data name="datosClienteTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;datosClienteTableLayoutPanel.Name" xml:space="preserve">
+    <value>datosClienteTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;datosClienteTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;datosClienteTableLayoutPanel.Parent" xml:space="preserve">
+    <value>datosPersonalesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;datosClienteTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="datosClienteTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="estadoCivilLabel" Row="7" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="datosPersonalesMetroLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="accionPictureBox" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="rutLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="limpiarButton" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="estadoCivilComboBox" Row="8" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="rutTextBox" Row="2" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="buscarButton" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nombreLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="sexoComboBox" Row="6" RowSpan="1" Column="2" ColumnSpan="2" /&gt;&lt;Control Name="apellidoLabel" Row="3" RowSpan="1" Column="2" ColumnSpan="2" /&gt;&lt;Control Name="nacimientoDateTimePicker" Row="6" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="sexoLabel" Row="5" RowSpan="1" Column="2" ColumnSpan="2" /&gt;&lt;Control Name="nombreTextBox" Row="4" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="apellidoTextBox" Row="4" RowSpan="1" Column="2" ColumnSpan="2" /&gt;&lt;Control Name="nacimientoLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="grabarButton" Row="9" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="cancelarButton" Row="9" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,9,523809,Percent,4,761905,Percent,14,28571,Percent,4,761905,Percent,14,28571,Percent,4,761905,Percent,14,28571,Percent,4,761905,Percent,14,28571,Percent,14,28571" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="datosPersonalesMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="datosPersonalesMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 3</value>
+  </data>
+  <data name="datosPersonalesMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 466</value>
+  </data>
+  <data name="datosPersonalesMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroPanel.Name" xml:space="preserve">
+    <value>datosPersonalesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;datosPersonalesMetroPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="contratosTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cantidadContratosLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cantidadContratosLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="cantidadContratosLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 12</value>
+  </data>
+  <data name="cantidadContratosLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cantidadContratosLabel.Name" xml:space="preserve">
+    <value>cantidadContratosLabel</value>
+  </data>
+  <data name="&gt;&gt;cantidadContratosLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cantidadContratosLabel.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;cantidadContratosLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="contratosDataGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contratosDataGridView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11px</value>
+  </data>
+  <data name="contratosDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="contratosDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 102</value>
+  </data>
+  <data name="contratosDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;contratosDataGridView.Name" xml:space="preserve">
+    <value>contratosDataGridView</value>
+  </data>
+  <data name="&gt;&gt;contratosDataGridView.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroGrid, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;contratosDataGridView.Parent" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;contratosDataGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="contratosTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contratosTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="contratosTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="contratosTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 120</value>
+  </data>
+  <data name="contratosTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.Name" xml:space="preserve">
+    <value>contratosTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.Parent" xml:space="preserve">
+    <value>contratosMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;contratosTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="contratosTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="cantidadContratosLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="contratosDataGridView" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,90,Percent,10" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="contratosMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contratosMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 475</value>
+  </data>
+  <data name="contratosMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 120</value>
+  </data>
+  <data name="contratosMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;contratosMetroPanel.Name" xml:space="preserve">
+    <value>contratosMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;contratosMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;contratosMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;contratosMetroPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 90</value>
+  </data>
+  <data name="formularioTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 630</value>
+  </data>
+  <data name="formularioTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Name" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="formularioTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="textoMetroLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="ayudaMetroLabel" Row="0" RowSpan="2" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="opcionesMetroPanel" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="datosPersonalesMetroPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="contratosMetroPanel" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,50,Percent,25" /&gt;&lt;Rows Styles="Percent,75,Percent,20,Percent,5" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ayudaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 588</value>
+  </data>
+  <data name="ayudaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Name" xml:space="preserve">
+    <value>ayudaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="formularioMetroToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="formularioImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>414, 17</value>
+  </metadata>
+  <data name="formularioImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACU
+        CgAAAk1TRnQBSQFMAgEBBAEAAVABAAFQAQABGQEAARkBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABZAMAATIDAAEBAQABCAUAAYgBExgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP//wD/AP8A/wD/AP8A
+        /wD/AP8AzgAW/wKMFP8B9AKMAbYV/wH0AowBthX/AfQCjAG2F/8CjBT/BowT/wOMAf8CjBP/BowS/wGN
+        AowBggGMA/8QjAH/BIwB/xOMAf8DjAP/EowB/wKMAf8BGgGMAv8BjAL/DYwCggGMAv8CjAP/CowB/wSM
+        AfQB/wSMAf8NjAH/BIwB9AH/AowE/wyMAf8EjAH0Af8DjAH/AYIB/wKMAv8JjAGCA4wB/wGMBP8BjAP/
+        AY0IjAH/AfIBggOMAv8CjAX/AYwBjQiMAf8B8gGCA4wC/wOMAv8DjAGNCIwB/wHyAYIDjAL/A4wC/wGC
+        AowC/wiMAY0B/wOMAf8BjAT/AYwE/wiMAf8BjAH/A4wC/wSMAf8DjAH/CIwB/wGMAf8DjAL/A4wC/wOM
+        Af8IjAH/AYwB/wOMAv8DjAP/AowC/wiMAf8BjAH/AowB/wKMAv8BggGMBP8HjAH/AfMBjAL/A4wB/wSM
+        Af8DjAH/B4wB/wHzAYwC/wOMAf8DjAL/AfACjAH/B4wB/wHzAYwC/wOMAf8CjAL/AYwB/wGNAYwC/weM
+        Av8BjAH/AbYCjAH/BIwF/wGNBYwB9AH/AowB8QH/AY0CjAL/BowC/wGNBYwB9AH/AowB8QH/AY0CjAL/
+        BowC/wGNBYwB9AH/AowB8QH/AY0CjAL/BowD/wHxBowB/wKMAv8DjAr/BYwC/wG2AYwD/wOMAv8BggOM
+        BP8FjAL/AbYBjAP/A4wC/wGCA4wE/wWMAv8BtgGMA/8DjAL/AYIDjAX/BYwC/wKMA/8FjAj/AfcCjAT/
+        AYwE/wKMAYIK/wH3AowE/wGMBP8CjAGCCv8B9wKMBP8BjAT/AowBggv/AY0CjAT/AYwD/wH0AowBgg//
+        AfQBjBf/AfQBjBf/AfQBjBT/AfQD/wGNAYwE/wHzdv8BvBj/AbwY/wG8L/8FjBT/BYwU/wWMFf8EjAGC
+        Ev8HjBL/B4wS/weME/8GjAGNEP8BtgeMAfQQ/wG2B4wB9BD/AbYHjAH0Ef8BjQeMEP8JjBD/CYwQ/wmM
+        Ef8IjAGND/8JjBD/CYwQ/wmMEf8JjA//CYwQ/wmMEP8JjBH/CYwP/wmMEP8JjBD/CYwR/wmMD/8JjBD/
+        CYwQ/wmMEf8IjAG8D/8B8QeMEf8B8QeMEf8B8QeME/8HjBH/AYIFjAGNEv8BggWMAY0S/wGCBYwBjRP/
+        AfAFjBT/A4wW/wOMFv8DjBf/AfQBjVj/AUIBTQE+BwABPgMAASgDAAFkAwABMgMAAQEBAAEBBQABIAED
+        FgAD//8A/wD/ACQACw==
+</value>
+  </data>
+  <metadata name="formularioMetroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 24</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.BackImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAaEAAAGhCAYAAADIqAvCAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxMAAAsTAQCanBgAAB3/SURBVHhe7d0xr109VsbxiZQm
+        Xdrb5wvcj5CGntS0oaVPSz9SGoSGAooREhHSQIFGQiBNgV4hIaoRzZSThoICGkQX1pPco/e8O8+9d59z
+        tu217L+lX7MG8eba3l7H3rb3z758+QIAwBA2CABADzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABA
+        DzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABA
+        DzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABA
+        DzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABADzYIAEAPNggAQA82CABADzYIAEAPNgis5OMf/OJl
+        eP3gLrzd+BA+XuFd2P7/Ov135IX79wArsUFgFhroHwb8U3JRYjgliS9JfA6nf9N5snrl/iZgJjYIVBMD
+        9mk2owH8fciUZG71Q9DfowR6H167OgAqskEgsxiElXBOMxsNzppJuMF7dkpOWio8zZxY3kM5Nghk8jDA
+        agagAXfVhLPXp6CZ4Jvw0tUnkIkNAiPF4PkqnGY5bqDFfpotkZSQlg0CPWlwfBgkmem0p6Skd0t3ri2A
+        3mwQaC0GwdNsR8tHbrBEH0r8zJIwjA0CLcRAp8SjX+H6Ne4GRIylHwR690ZCQjc2CBwlBjQST02nhMSO
+        OzRlg8AtYuDSOx4NYCy1zeHrkp1ra+BWNghcIwYqnd3RgOUGMtSnTSOa1XKTAw5jg8BeMSBp1qMNBiy3
+        rUWzXGZHuJkNAs+JAUgHSHX+xA1QWIdmR/oRwmYGXMUGgcfEYKPtvLzrgaMfJdxrh4vYIHAuBhbdRM2S
+        G/bSTRcchsUuNghIDCSn5MMtBriGfrTw3ghPskGsLQYOkg+ORDLCo2wQa4qBguSDlkhG+I4NYi0xMJB8
+        0JOSEe+M8JUNYh0xGGi3G8kHI2gDA7vpFmeDmJ8e/sBuN2SgWzY4Z7QoG8S89LAHPhaHjLQkzIWpi7FB
+        zEcP98ND7h5+IAs2LyzGBjGXeKh1sSjvfVCJZuss0S3ABjEHPcQPD7N7yIEK3rq+jXnYIOrTwxuY/WAG
+        WqJjF92kbBB1xcOqL5lywShmpG8ZsXFhMjaImuIBZeMBZsesaDI2iFriodS7H2Y/WAmzoknYIOqIB/E+
+        8O4HK9IPLz41XpwNIr94+HTuRyfN3cMJrOTePSOowQaRWzx0unKH2Q/wIx1FYHmuIBtEXvGgsfkA8PTD
+        jE0Lxdgg8omHS8tvHDwFnscB10JsELnEQ6WzP9x4Deyn96UszxVgg8gjHiR978c9ZACexu65AmwQOcQD
+        9P7sgQJwOb0n4iuuidkgxoqHhvc/wLHYxp2UDWKceFi4+w1o47175jCWDWKMeEiUgDj/A7SjH3hsWEjE
+        BtFfPBhsQAD6UCLig3lJ2CD6igeCBAT0pRUHds4lYIPoJx4EdsABY3DDQgI2iD7iASABAeO9cc8n+rBB
+        tBcdnwQE5EEiGsQG0U50ds4AATmRiAawQbQRnVwJiDNAQF4kos5sEMeLzk0CAmogEXVkgzhWdGoSEFAL
+        iagTG8RxojOTgICaSEQd2CCOEx2ZTQhAXSSixmwQx4gOzDZsoD4SUUM2iNtFxyUBAfMgETVig7hNdFgS
+        EDAX7pprxAZxveioXEYKzIlE1IAN4jrRQUlAwNyUiPge0YFsEJeLjqkP0rlOC2AuOnJBIjqIDeIy0SH5
+        Iiqwlo9uLMDlbBD7RWfkMCqwpvduTMBlbBD7RUfkMCqwLrZu38gGsU90QLZiA+DrrDewQTwvOh474QCI
+        3ge/dOMEnmeDeFp0OHbCATjHjrkr2SAep44WfnjoeABwwkaFK9ggHhcdjY0IAB7DRoUL2SC86GBvNx0O
+        AM5xtc+FbBDfi471+qyjAcBjeD90ARvET6lDBW5EALAX74d2skH8VHSoD5sOBgDP4f3QDjaIH0VHut90
+        LADYg/NDO9ggvlEHeuhIroMBwHO46PQZNohvogNxMSmAW7114wu+sUF8TUBsxwZwFLZtP8IGV6cOs+lA
+        AHCLT26sAUnIUofZdCAAuBXLcoYNrkwdZdNxAOAo7JbbsMFVqYMEdsMBaIXdchs2uCp1kE2HAYCjcYj1
+        jA2uKDrG3aajAEALWm3hbrkHNrgadYjAN4IA9MLdcg9scDXRIdiMAKC31248Wo0NriQ6gjYjuA4CAC1x
+        dijY4EqiI7AZAcAoy29SsMFVRAfgQ3UARlp+k4INriIan80IAEZb+iYFG1xBNPybTUcAgBGW/u6QDc4u
+        GpzPdQPIZNkt2zY4u2hwtmQDyGbJ2ZANziwamlkQgIyWnA3Z4MyioZkFAchquQOsNjiraGBmQQAyW+6W
+        bRucVTQwsyAA2S01G7LBGUXDMgsCUMFSsyEbnFE0LLMgAFUss1POBmcTDcosCEAly+yUs8HZRIMyCwJQ
+        zRKzIRucTTQmd8QBqGaJ2ZANziQakjviivjrP/nVl3/+8x++/Paffvfld//6+y//+z//F0340/L5P/7z
+        6//2L7/89y+//vlvvvzVH/+N/f8FTECvEKa/YdsGZxKN+OmsUZHIn/3hX375+z/9x69J55byX7//7y//
+        9ne/JSFhRtPfsG2Ds4gG5HtBCf3FH/3y60zGzXRuLUpISmzuvwsU9EN0azu+zcIGZxEN+H7ToBhIMx8t
+        t/UoSkZ/++Ef7L8DKGbqr6/a4Ayi4V5uGhIDKSEoMfQuWupT8nP/JqCIqQ+v2uAMouHYlp2Elt5GFi37
+        MStCcdNu17bBGUSjsS17MM1AtJstS9FuOvfvBAqYdru2DVYXDXa3aUB0li0BnYp20bl/L5Dc5+i+dryr
+        zgariwb7sGlAdJQ1AZ0KiQhFTblBwQYri4ZiQ8JA2RPQqbCNGwVNuUHBBiuLhrrfNBw60iyjStENDe5v
+        ABKbboOCDVYWjcQNCYNodlGpaNfcCtu3dTj4dCXS+bVI507/m3YRcvNEatPdoGCDVUUDvdo0GDrRQNfi
+        BoTWRQOy+3sqU2LVDwLNSm85m6XkpB2Falv338EQ092gYINVRQO92zQYOqm0DLctsyzL6e+49R6+x4re
+        8ykhrTBzLOBVNIkdAyuywaqicTgbNIAGv8pFA6z7u6rQrKfXbRSa7WrZjmQ01LtoCjsGVmSDFUXDsBQ3
+        SKtf3z1LxRsVlPxH7UQ8JSP370JzUy3J2WBF0TAsxQ2g9wUzFL3/cH9fRpqFjL4K6VSUBNnIMMQ0S3I2
+        WFE0CktxA2QZDI8oFV7Aa8AfcRHsc4UrkbqbZknOBquJBmEpbpCMA+K1RQnV/Y1ZZN8Cr80pvCvqZpol
+        ORusJhqEG7MH0K/ymUrmDQqaaVQoqkMSUTdTLMnZYDXRGBxQHUAvpmcrGQfQatvfSUTd3Ed12zGxEhus
+        JBqCu+IGmWFX3LZk2yVX7RaKUyERdfEpqtqOi5XYYCXREG82DYNOZnofdCqZth1XTUCnohmc+7twqBdR
+        1XZsrMIGK4lG4LMNg8xYslzjo/dtFa9B2hbOEjV3F9Vsx8YqbLCSaITPm0ZBB7NtSjiVLOeFtJw1S+Ec
+        UVPlv7hqg1VEA7A1e5DqV/U8VjIkodk2fGjZ1v2dOET5rdo2WEU0AFuzByEJtTHLDRTbwrJcU6W/MWSD
+        VUTlf9w0BjohCbWh//6MRe+3+CREM6U/+22DVZjGQCckoePNWqenwm65Zkq/F7LBCqLiX28aAh2RhI43
+        6yzovDAbaqL0eyEbrCAq/n7TEOhsxjJqi/as74K2hXdDzZR9L2SDFUSlcz5osBnOsWzLqEFyptvInyrs
+        lGum7HshG6wgKp3zQYPNuHw06tqeGW+feKxwbqiJsp92sMHsosK5Ly6B2c6zqIx4ZzHrwd/HSvZPZhT1
+        MarWjpfZ2WB2UeF3mwbAALNtThi1VDRjMn+qZP5kRmVR7HiZnQ1mFxXOIdUkZnovNOoX+gq74raFG7ab
+        eB1Va8fMzGwwu6hsDqkmUe1bN0+VUe8qZtzg8VzRLNrVBW5S8vtCNphdVDabEpKY5X3GqKW4VbZmbwtb
+        tZsouTnBBjOLimZTQjIzLCfp2z3ub2tt9lsSHitsTmii5OYEG8wsKpqbEpKpPpCOPLuiLeErlpE3U8ws
+        ih03M7PBzKKi2ZSQUOXZ0KhZkKy2M+5USELNlLs5wQYzi0p+v6l0JFD13dDowZAkhIOV2yFng5lFJbMz
+        LqlqA2qGzwuQhHCwt1G9duzMygYzM5WORCoty41chjshCeFg5XbI2WBWUcEvNhWOZHQIscI9aFm+bUMS
+        wsHK7ZCzwayigtkZV4DeD2U+gJnp42rsjsPB9KvGjp9Z2WBWUcHcGVdE1kSU7euenBPC0aLY8TMrG8wq
+        Kpjt2YUoEWVamsv4eWktX65YtAzp6gOHeBVVbMfQjGwwq6jcd5vKRnIaZDNsVvj1z39j/30ZcHccDlZq
+        m7YNZhWVy/bsopQERgy2+myAZmTu35SFPim+WuEW7aZKfWXVBrOKyiUJFaYzOb1mRUp4VZZ8lKBXKnxP
+        qLlSZ4VsMCtT2ShISzGtktEp+VT6pV31tolrC5sSmit1VsgGszKVjcI0M9KAdMTmBSU1HT6tusxT4WzV
+        USX78ugESp0VssGMomL5hMPENDBpWUo72LRc81TRbEdJRwlM52xmeL+wyqHVkTeWL4Qk1EJULAdVF6QE
+        o+W72XdTrfJxu8y7FCdS6sCqDWYUFUsSwtQ0C5y5aAbLrrg+othxNCMbzCgqltsSMLXZb0/ggGo/Uew4
+        mpENZhQVy20JmN6ssyFmQX1FseNoRjaYUVQsSQjT07shDdizFd4FdVfm1gQbzCgqlSSEJcy2U47DqUOQ
+        hI4WlUoSwjKe26ZepWhWx7mgIUhCR4tK/bCpZCSjF+tadtEveZ3jEbe01OOLpvpvbIsGdv2b9N5F/0ad
+        Mco6QM6yLJfh67WLIgkdLSqVe+MS0UtmDeI6MHrNr/aWg5NLQE8VDfZKTkqgmZJS9d1yGT+dsRCS0NGi
+        UklCCWiAP+rW5xaJ6NIE5IpO9Su5ajbi/hs9HfH3jCgkoOFIQkeLSiUJDaJZj5avWiwPHZmIWgzYmiGN
+        vq2hWiLSzJjt2MOVuUnbBjOKSiUJddYy+ZyXIxJR64FayWjkUl2VRKQZEAkoBZLQ0aJSSUId6X1Pz5ud
+        b0lEPQdoLdONGmQ1I8u8WUF14/7dGIIkdLSoVJJQBxpgNZiMKNckohEzBCXnUbMivafKtn1bifGWHxFo
+        giR0tKhUklBjSkCjB7hLBrMRCehURg+8WQ60apkywwYOfIckdLSoVJJQQ/pln+XDansG95EJ6LyMTEQa
+        /JUERhT1lZF/O55FEjpaVCpJqJGMByOfGuCyJKBTGT0Y611Rr2RE8imDJHS0qFSSUAMZluAeK26wy5aA
+        TmX0Nm7RbFa701r8oNDZMJJPKSSho0WlkoQaOOrgaatyPvBlTUAqGvgzvRu55TYLFc14lNBU52y5Luk+
+        mtGOpdnYYEZRqSShg+mamgpFA2HmBHQqWhJz9ZyBZmpKTNrQ8Bj1B/3fkXSmwI0JR4tKJQkdKON7oBkK
+        381BEiSho0WlvttUMm6QfRmualFiZyaBBEhCR4tK5XtCB9GSC6Vd0dKWq3egI5LQ0aJSSUIHYRbUtjAb
+        QgIkoaNFpZKEDqB3QZT25XxXHzDAy+iGdizNxgYzikolCR1g1L1wqxTtkMtwZghri2LH0YxsMKOo2Nfb
+        isblslzNM1vREhyzH2QRxY6jGdlgRlGxJKEb6UQ95fiid2wt3wFpCVWzK9me7clE55D0bxz53SV8E8WO
+        oxnZYEZRsSShG7EUd3w58lyQEtnpQKkSW9brlPYWzbq1PKm/R7PETDdKTO5TVL8dRzOywYyiYl9sKhoX
+        qj6oZSpafjviF/+t1+tUK1wH1MXHqGo7jmZkg1mZysYFKMcUJYxbftVryarVRaPVimZ8vEs7HEmolajc
+        z5vKxk4a+Ci3FyWga3/Ba7BlY4gvqhct2zE7OkSZG7TFBrOKyuX+uCtVuaw0c7k2AZF89hfNDklGNyMJ
+        tRKVSxK6EpsSbisaHC9dgtPsk/dw1xUlbb0vc/WKZ91FFdoxNCMbzCoqlwOrVxr1GehZyqWbEEj6x5TW
+        298nVebKHrHBrKJySUJXYjno+nLJNmzNlpj9HFvUdzl7dJEXUW12DM3IBrOKyuWs0JUo1xX9Enf16Wig
+        ZMdbm6J6ZRfdPlHs+JmVDWYVFUwSuhLl8qKBb+9SEAmoTyERPavUQVWxwcxMpeMZbM++rux9MU4C6ltI
+        RE8qdUZIbDCzqOQfNpWOZ5CELi/ayOHqcosENKbwjuhRpbZniw1mFpXMNu0LkYQuL6ozV5fntFTHJoQx
+        5ZKl0sXcR/XYsTMrG8wsKvndptLxDJLQZUVX6rh63NKmBcq4sne2uphS27PFBjOLSr7fVDqeQRK6rOw5
+        lKr3RZTx5chbzCdRanu22GBmUcnskLsQSWh/2fPrWstAvAfKUViW+4nPUSV23MzMBrMzlY8nkIT2lz07
+        4nS3GSVP2bt8uoByO+PEBrOLymaH3AVIQvuKTua7+junpTpKvnLLpzUmUm5nnNhgdlHZHzaVjyeQhPYV
+        zXBc/Z3jTrichdnQV6UuLj2xweyisrlD7gIkoX3luV/TvAvKXXg39IuXUQ12zMzMBrOLymZzwgX0cCoR
+        4Wmu7s7ppD4lb1l8p1zJTQlig9lFhb/YNADQHAdTc5c97/QmVnJTgthgBVHpnzaNADTDhoQaZeHrfEpu
+        ShAbrCAq/f2mEYBm+Dx6jbJnc8mkyt2UcGKDFUSlv9k0AtAMX6atUbRk6tpvAeVuSjixwQqi0l9uGgFo
+        hlKnLLhLrtw3hM7ZYBVR+RxaRXPaOUepU/Z+B2oi7+LPtmNkBTZYRVQ+74XQHNf01CoLvhcqeUj1xAar
+        iMpf4r2QdmbpwcLx9nylk0821CoLfuKh7PsgscEqovKXeC/EclC7smfA4nxQrbLYeaHS74PEBiuJRpj+
+        vRBJqF3RbMjV+TlKveLacVKl3weJDVaiRtg0ynRIQu3Kc0mIQ6o1y55rmCZR9nzQiQ1WEo1wt2mU6ZCE
+        2pXnBivqvmZZZIdc2fviztlgNaZxpsJA2K48l4S4tLRm2bPMOoEP8afaMbESG6xGjbFpnKmQhNqV5z7f
+        oMGMUq8skoTexJ9qx8RKbLAaNcamcaZCEmpXXH2fIwnVLNpW79pzMqW3Zp/YYDXRGFNv1SYJtSuuvs/x
+        JdWaZYGzQmU/3bBlgxVFo0z7aQeSULvi6vscF5fWLAskofv4M+1YWI0NVqRG2TTSNEhCbYo+1e3q+xxJ
+        qGZZIAmV/JS3Y4MVqVE2jTQNPs/dxp4PoJGEapbJk1D5WxLO2WBVapxNYwE3IQnVLJMnoWmW4sQGq1Lj
+        bBoLuAlJqGaZPAlNsxQnNlhVNM6LTWMBNyEJ1SwTJ6EpDqies8HK1EibRgOuRhKqWSZOQlMcUD1ng5Wp
+        kTaNBlyNJFSzTJqEPocpDqies8HqHhrLNSJwEZJQzTJpEnoff5od8yqzweqisab/vAP6IAnVLJMmofKf
+        bXBssLporFebxgOuQhKqWSZMQrrE0I531dngDKLRODOEm5GEapYJk9BUZ4PO2eAMotHYoICbkYRqlgmT
+        0HQbEk5scBbRcGxQwE1IQjXLZEloyg0JJzY4i2i8t5vGBC5CEqpZJktCr+JPsmPcDGxwFtF4U39nCO2R
+        hGqWiZLQNN8NeowNziQa8f2mUYHdSEI1y0RJaLobErZscCbRiK83jQrspi+rakBDLWo3157FTLst+5wN
+        ziYa8+OmcQEgu2m3ZZ+zwdlEY95tGhcAMpvynjjHBmcUDfrDWQMDQGZv3Tg2IxucUTQqh1cBVLDMLEhs
+        cFbRsMyGAGS3zCxIbHBW0bjMhgBkttQsSGxwZtHAzIYAZLXULEhscGbRyMyGAGS03CxIbHB20dDMhgBk
+        s9wsSGxwdtHYnBsCkMmSsyCxwRVEg3OLAoAslrgdwbHBFUSjc6ccgAyWuCPuMTa4imj8D5vOAAC93bnx
+        aRU2uIpofL43BGCk6b8X9BwbXEl0Ar6+CmCUqb+auocNriQ6wYvAlm0Avb13Y9JqbHA10Rk4wAqgp2W3
+        ZG/Z4IqiQ7BlG0Avy27J3rLBFUWnYJMCgB4+uTFoVTa4qugcbFIA0NrymxHO2eDKooOwSQFAK+/cuLMy
+        G1xZdBJuUgDQgn7gshlhwwZXFx3l3VnHAYAjvHbjzepscHXRWTg7BOBILMM9wgbBshyAw7AM9wQbxDfR
+        cViWA3ArluGeYIP4JjqPluU+nXUmALgEy3DPsEH8KDrRq02nAoA9OJS6gw3ip6Iz3W86FwA8RXfDcSh1
+        BxvE96JDcbccgL3euHEE37NBfC86ld4P6deN63AAcMInGi5gg/Cic7FtG8BTtJGJ7dgXsEE8LjoYl5wC
+        cHgPdAUbxNOio30463gAILwHuoIN4mnR2Tg/BOAc54GuZIN4XnQ6nR9iowIAzgPdwAaxT3S+u01nBLAW
+        7oW7kQ1iv+iAHGQF1sRGhAPYIC4THfH9WccEsIY7Nx7gMjaIy0WHZKMCsI57Nw7gcjaIy0WnZMccsAZu
+        RDiQDeI60TlfBnbMAfP64J59XM8Gcb3opGzdBubElTwN2CBuEx2VO+aAuZCAGrFB3C467JuzDgygLs4C
+        NWSDOEZ0XBIRUBtngRqzQRwnOjCJCKiJBNSBDeJY0ZFJREAtJKBObBDHiw5NIgJqIAF1ZINoIzo2iQjI
+        jQTUmQ2inejgJCIgJxLQADaItqKjk4iAXEhAg9gg2osOTyICctA5IBLQIDaIPqLjKxHpF5h7MAC0x00I
+        g9kg+okHgLvmgDFIQAnYIPqKB4FEBPSlD1GSgBKwQfSnByLwPSKgPb4HlIgNYox4OJSIPp49LACOxRdR
+        k7FBjBUPipYK3AME4Dpa7r5zzxvGskGMFw8MW7iBY7AFOzEbRA7x4OjjeGxYAK7HDrjkbBB5xAP08uFB
+        cg8YgMexAaEAG0Qu8TBpwwLviYB9tHrwxj1LyMcGkZMerIcHzD14AL6tGvD+pxAbRF56wB4eNPcAAivj
+        AGpBNojc9KA9PHDuQQRWw/JbYTaIGvTgPTyA7sEEVsDyW3E2iDriAdTuOW5ZwIreuWcCtdgg6okH8u3m
+        AQVmpcOnr91zgHpsEDXFg8mmBczuXWDzwURsELXFQ8qsCLNh9jMpG0R98cDyrgizYPYzMRvEPOLhZQcd
+        qmLn2wJsEHOJB5lzRahEP5r47s8ibBBzigdbt3KzcQGZcevBYmwQc4uHnCU6ZKP3lyy9LcgGMb944LVE
+        p110JCOMpF1vfPF0YTaIdcQAoF10vC9Cb7z3wVc2iPXEgEAyQg9KPpqB894HX9kg1hWDgzYvcL4IRyP5
+        wLJBIAYLkhGOQPLBk2wQOInBg2U6XIPkg11sENiKweSUjDS4uEEHEO12uw8kH+xig8BjNLgE/cLVYOMG
+        IaxJS7d83RQXs0FgDw06D4OPG5SwBs2OOWSKq9kgcIkYhFiqWwtLbjiMDQLXioGJ2dGc9ANDPzT4pg8O
+        ZYPArWKw0uyId0f1fQj6YcGsB03YIHCkGMD02XF9mIyEVINuWtdy20vXnsCRbBBoJQY2ElJOWkIl8aA7
+        GwR6iAFPCUkDH9846k/veFhqw3A2CPSmgTDcBb38ZpbUhpK9ZqFsLkAaNgiMFgOlNjboVzpJ6XqnpKPk
+        zmwHKdkgkE0MoqekpEGVLeDf0/Ka6kU7EnX5LEkHJdggUMHDYKt3SqslpvOEo1kOmwlQlg0CVWlADkpO
+        GqBPyanqcp6W007JRsmWGQ6mY4PAjGIA1248DeRa1jtPUiMS1SnBnJLMaVZDosFSbBBY3UMycE4J4zGn
+        GcsWS2aAYYMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA
+        9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA
+        9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA
+        9GCDAAD0YIMAAPRggwAA9GCDAAD0YIMAAPRggwAA9GCDAAC09+Vn/w9GDlYyCHflOAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 750</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 400</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>34, 90, 34, 30</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Seguros BeLife - Maestro de clientes.</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroToolTip.Name" xml:space="preserve">
+    <value>formularioMetroToolTip</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroToolTip.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroToolTip, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleExtender.Name" xml:space="preserve">
+    <value>formularioMetroStyleExtender</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleExtender.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleExtender, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;formularioImageList.Name" xml:space="preserve">
+    <value>formularioImageList</value>
+  </data>
+  <data name="&gt;&gt;formularioImageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleManager.Name" xml:space="preserve">
+    <value>formularioMetroStyleManager</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleManager.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MetroMaestroDeClientesForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>

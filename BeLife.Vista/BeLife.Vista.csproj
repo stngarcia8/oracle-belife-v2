@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{055A7693-6A4B-46B0-82E6-355432340ACF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BeLife.Vista</RootNamespace>
+    <AssemblyName>SegurosBeLife</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comandos\CmdAbrirFormulario.cs" />
+    <Compile Include="Comandos\CmdCargarDataGrid.cs" />
+    <Compile Include="Comandos\CmdCargarGrillaClientes.cs" />
+    <Compile Include="Comandos\CmdCargarComboBox.cs" />
+    <Compile Include="Comandos\CmdCargarGrillaContratos.cs" />
+    <Compile Include="Comandos\CmdCargarGrillaContratosCliente.cs" />
+    <Compile Include="Comandos\CmdCargarComboEstadoCivil.cs" />
+    <Compile Include="Comandos\CmdCargarComboPlan.cs" />
+    <Compile Include="Comandos\CmdCargarComboSexo.cs" />
+    <Compile Include="Comandos\CmdValidarEntradas.cs" />
+    <Compile Include="Comandos\ComandoValidarEntradas.cs" />
+    <Compile Include="Comandos\IComando.cs" />
+    <Compile Include="Controles\MsgBox\MsgBoxControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controles\MsgBox\MsgBoxControl.Designer.cs">
+      <DependentUpon>MsgBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\MsgBox\MsgBoxProperties.cs" />
+    <Compile Include="Controles\MsgBox\MsgBox.cs" />
+    <Compile Include="MetroForms\MetroListadoDeClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroListadoDeClientesForm.Designer.cs">
+      <DependentUpon>MetroListadoDeClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroForms\MetroAcerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroAcerca.Designer.cs">
+      <DependentUpon>MetroAcerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroForms\MetroBeLifeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroBeLifeForm.Designer.cs">
+      <DependentUpon>MetroBeLifeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroForms\MetroListadoDeContratosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroListadoDeContratosForm.Designer.cs">
+      <DependentUpon>MetroListadoDeContratosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroForms\MetroMaestroDeClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroMaestroDeClientesForm.Designer.cs">
+      <DependentUpon>MetroMaestroDeClientesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroForms\MetroMaestroDeContratosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroMaestroDeContratosForm.Designer.cs">
+      <DependentUpon>MetroMaestroDeContratosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroForms\MetroPreferenciasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroForms\MetroPreferenciasForm.Designer.cs">
+      <DependentUpon>MetroPreferenciasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controles\MsgBox\MsgBoxControl.resx">
+      <DependentUpon>MsgBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroAcerca.en-US.resx">
+      <DependentUpon>MetroAcerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroAcerca.resx">
+      <DependentUpon>MetroAcerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroBeLifeForm.en-US.resx">
+      <DependentUpon>MetroBeLifeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroBeLifeForm.resx">
+      <DependentUpon>MetroBeLifeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroListadoDeClientesForm.en-US.resx">
+      <DependentUpon>MetroListadoDeClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroListadoDeClientesForm.resx">
+      <DependentUpon>MetroListadoDeClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroListadoDeContratosForm.en-US.resx">
+      <DependentUpon>MetroListadoDeContratosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroListadoDeContratosForm.resx">
+      <DependentUpon>MetroListadoDeContratosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroMaestroDeClientesForm.en-US.resx">
+      <DependentUpon>MetroMaestroDeClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroMaestroDeClientesForm.resx">
+      <DependentUpon>MetroMaestroDeClientesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroMaestroDeContratosForm.en-US.resx">
+      <DependentUpon>MetroMaestroDeContratosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroMaestroDeContratosForm.resx">
+      <DependentUpon>MetroMaestroDeContratosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroPreferenciasForm.en-US.resx">
+      <DependentUpon>MetroPreferenciasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetroForms\MetroPreferenciasForm.resx">
+      <DependentUpon>MetroPreferenciasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeLife.Aplicacion\BeLife.Aplicacion.csproj">
+      <Project>{ad4d4e0f-b4c5-441f-8391-c39e26173e8c}</Project>
+      <Name>BeLife.Aplicacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeLife.Controlador\BeLife.Controlador.csproj">
+      <Project>{88c3b36b-c0fd-4e48-9bee-3b5949d7037b}</Project>
+      <Name>BeLife.Controlador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeLife.Modelo\BeLife.Modelo.csproj">
+      <Project>{157101e5-17c0-4e1c-b69f-37a9697c843a}</Project>
+      <Name>BeLife.Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo BeLife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contratos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientUpdate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractUpdate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idiomas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferenciass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darkMode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo BeLife1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsBuffer.bmp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xBelife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agente-de-seguros-mostrando-una-poliza-un-matrimonio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beLifeClaro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beLifeOscuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_SinFondo_BeLife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin_fondo_agente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moonDark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moonDarkTheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunLightTheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialogError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialogInformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialogQuestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialogWarning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listaDeClientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientSearch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientDelete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clientes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientUpdate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractAdd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractDelete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractSearch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContractUpdate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contratos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataSearch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientAdd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ejecutivas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listadoDeContratosForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maestroContratos.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

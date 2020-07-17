@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Datos", "BeLife.Datos\BeLife.Datos.csproj", "{307E1626-E54E-44AD-9D3A-F184B6BD8ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Controlador", "BeLife.Controlador\BeLife.Controlador.csproj", "{88C3B36B-C0FD-4E48-9BEE-3B5949D7037B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Modelo", "BeLife.Modelo\BeLife.Modelo.csproj", "{157101E5-17C0-4E1C-B69F-37A9697C843A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Vista", "BeLife.Vista\BeLife.Vista.csproj", "{055A7693-6A4B-46B0-82E6-355432340ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{48CAA889-868D-496F-AB0B-6E442C30493C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeLife.Aplicacion", "BeLife.Aplicacion\BeLife.Aplicacion.csproj", "{AD4D4E0F-B4C5-441F-8391-C39E26173E8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307E1626-E54E-44AD-9D3A-F184B6BD8ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307E1626-E54E-44AD-9D3A-F184B6BD8ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307E1626-E54E-44AD-9D3A-F184B6BD8ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307E1626-E54E-44AD-9D3A-F184B6BD8ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C3B36B-C0FD-4E48-9BEE-3B5949D7037B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C3B36B-C0FD-4E48-9BEE-3B5949D7037B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C3B36B-C0FD-4E48-9BEE-3B5949D7037B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C3B36B-C0FD-4E48-9BEE-3B5949D7037B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157101E5-17C0-4E1C-B69F-37A9697C843A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157101E5-17C0-4E1C-B69F-37A9697C843A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157101E5-17C0-4E1C-B69F-37A9697C843A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157101E5-17C0-4E1C-B69F-37A9697C843A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055A7693-6A4B-46B0-82E6-355432340ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055A7693-6A4B-46B0-82E6-355432340ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055A7693-6A4B-46B0-82E6-355432340ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055A7693-6A4B-46B0-82E6-355432340ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4D4E0F-B4C5-441F-8391-C39E26173E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4D4E0F-B4C5-441F-8391-C39E26173E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4D4E0F-B4C5-441F-8391-C39E26173E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4D4E0F-B4C5-441F-8391-C39E26173E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

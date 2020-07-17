@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88C3B36B-C0FD-4E48-9BEE-3B5949D7037B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BeLife.Controlador</RootNamespace>
+    <AssemblyName>BeLife.Controlador</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comandos\CmdBuscar.cs" />
+    <Compile Include="Comandos\CmdBuscarCliente.cs" />
+    <Compile Include="Comandos\CmdBuscarContrato.cs" />
+    <Compile Include="Comandos\CmdBuscarContratoVigente.cs" />
+    <Compile Include="Comandos\CmdGrabar.cs" />
+    <Compile Include="Comandos\CmdGrabarCliente.cs" />
+    <Compile Include="Comandos\CmdGrabarContrato.cs" />
+    <Compile Include="Comandos\IComando.cs" />
+    <Compile Include="Consultas\StringResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\DaoCliente.cs" />
+    <Compile Include="DAO\DaoContrato.cs" />
+    <Compile Include="DAO\DaoEstadoCivil.cs" />
+    <Compile Include="DAO\DaoPlan.cs" />
+    <Compile Include="DAO\DaoSexo.cs" />
+    <Compile Include="DAO\IDaoCliente.cs" />
+    <Compile Include="DAO\IDaoContrato.cs" />
+    <Compile Include="DAO\IDaoEstadoCivil.cs" />
+    <Compile Include="DAO\IDaoPlan.cs" />
+    <Compile Include="DAO\IDaoSexo.cs" />
+    <Compile Include="Enumeraciones\EstadoFormulario.cs" />
+    <Compile Include="Enumeraciones\TipoDeBusqueda.cs" />
+    <Compile Include="Enumeraciones\TipoFiltro.cs" />
+    <Compile Include="Enumeraciones\TipoGrabacion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeLife.Aplicacion\BeLife.Aplicacion.csproj">
+      <Project>{ad4d4e0f-b4c5-441f-8391-c39e26173e8c}</Project>
+      <Name>BeLife.Aplicacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeLife.Datos\BeLife.Datos.csproj">
+      <Project>{307e1626-e54e-44ad-9d3a-f184b6bd8ece}</Project>
+      <Name>BeLife.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeLife.Modelo\BeLife.Modelo.csproj">
+      <Project>{157101e5-17c0-4e1c-b69f-37a9697c843a}</Project>
+      <Name>BeLife.Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Consultas\StringResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

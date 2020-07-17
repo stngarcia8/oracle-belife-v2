@@ -1,0 +1,1083 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="formularioTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="botonesTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="visualizacionMetroButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="visualizacionMetroButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="visualizacionMetroButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 50</value>
+  </data>
+  <data name="visualizacionMetroButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="visualizacionMetroButton.Text" xml:space="preserve">
+    <value>&amp;Opciones de visualizacion</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroButton.Name" xml:space="preserve">
+    <value>visualizacionMetroButton</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroButton.Parent" xml:space="preserve">
+    <value>botonesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="idiomasMetroButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="idiomasMetroButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="idiomasMetroButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 50</value>
+  </data>
+  <data name="idiomasMetroButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="idiomasMetroButton.Text" xml:space="preserve">
+    <value>&amp;Cambiar idioma</value>
+  </data>
+  <data name="&gt;&gt;idiomasMetroButton.Name" xml:space="preserve">
+    <value>idiomasMetroButton</value>
+  </data>
+  <data name="&gt;&gt;idiomasMetroButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;idiomasMetroButton.Parent" xml:space="preserve">
+    <value>botonesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomasMetroButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="botonesTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="botonesTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="botonesTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="botonesTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 701</value>
+  </data>
+  <data name="botonesTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;botonesTableLayoutPanel.Name" xml:space="preserve">
+    <value>botonesTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;botonesTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;botonesTableLayoutPanel.Parent" xml:space="preserve">
+    <value>botonesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;botonesTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="botonesTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="visualizacionMetroButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="idiomasMetroButton" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,15,Percent,85" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="botonesMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="botonesMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="botonesMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 703</value>
+  </data>
+  <data name="botonesMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;botonesMetroPanel.Name" xml:space="preserve">
+    <value>botonesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;botonesMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;botonesMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;botonesMetroPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ayudaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ayudaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>792, 0</value>
+  </data>
+  <data name="ayudaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 638</value>
+  </data>
+  <data name="ayudaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Name" xml:space="preserve">
+    <value>ayudaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ayudaMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="aceptarMetroButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aceptarMetroButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="aceptarMetroButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 641</value>
+  </data>
+  <data name="aceptarMetroButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 65</value>
+  </data>
+  <data name="aceptarMetroButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="aceptarMetroButton.Text" xml:space="preserve">
+    <value>&amp;Aceptar</value>
+  </data>
+  <data name="&gt;&gt;aceptarMetroButton.Name" xml:space="preserve">
+    <value>aceptarMetroButton</value>
+  </data>
+  <data name="&gt;&gt;aceptarMetroButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;aceptarMetroButton.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;aceptarMetroButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cancelarMetroButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cancelarMetroButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="cancelarMetroButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>792, 641</value>
+  </data>
+  <data name="cancelarMetroButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 65</value>
+  </data>
+  <data name="cancelarMetroButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cancelarMetroButton.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;cancelarMetroButton.Name" xml:space="preserve">
+    <value>cancelarMetroButton</value>
+  </data>
+  <data name="&gt;&gt;cancelarMetroButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cancelarMetroButton.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;cancelarMetroButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="referenciaActualMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="referenciaActualMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="referenciaActualMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="referenciaActualMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 25</value>
+  </data>
+  <data name="referenciaActualMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="referenciaActualMetroLabel.Text" xml:space="preserve">
+    <value>Referencia cultural actual.</value>
+  </data>
+  <data name="&gt;&gt;referenciaActualMetroLabel.Name" xml:space="preserve">
+    <value>referenciaActualMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;referenciaActualMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;referenciaActualMetroLabel.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;referenciaActualMetroLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="idiomaActualMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="idiomaActualMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="idiomaActualMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="idiomaActualMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="idiomaActualMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="idiomaActualMetroLabel.Text" xml:space="preserve">
+    <value>Idioma:</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroLabel.Name" xml:space="preserve">
+    <value>idiomaActualMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroLabel.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="idiomaActualMetroTextBox.AccessibleDescription" xml:space="preserve">
+    <value>Idioma actual.</value>
+  </data>
+  <data name="idiomaActualMetroTextBox.AccessibleName" xml:space="preserve">
+    <value>Idioma actual.</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 1</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="idiomaActualMetroTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="idiomaActualMetroTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 98</value>
+  </data>
+  <data name="idiomaActualMetroTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="idiomaActualMetroTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroTextBox.Name" xml:space="preserve">
+    <value>idiomaActualMetroTextBox</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroTextBox.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomaActualMetroTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroTextBox.AccessibleDescription" xml:space="preserve">
+    <value>Idioma actual.</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroTextBox.AccessibleName" xml:space="preserve">
+    <value>Idioma actual.</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>126, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 349</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroTextBox.Name" xml:space="preserve">
+    <value>nuevaNomenclaturaMetroTextBox</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroTextBox.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nomenclaturaActualMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nomenclaturaActualMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nomenclaturaActualMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 126</value>
+  </data>
+  <data name="nomenclaturaActualMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="nomenclaturaActualMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="nomenclaturaActualMetroLabel.Text" xml:space="preserve">
+    <value>Nomenclatura:</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroLabel.Name" xml:space="preserve">
+    <value>nomenclaturaActualMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroLabel.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 346</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="nuevaNomenclaturaMetroLabel.Text" xml:space="preserve">
+    <value>Nomenclatura:</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroLabel.Name" xml:space="preserve">
+    <value>nuevaNomenclaturaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroLabel.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nuevaNomenclaturaMetroLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nomenclaturaActualMetroTextBox.AccessibleDescription" xml:space="preserve">
+    <value>Idioma actual.</value>
+  </data>
+  <data name="nomenclaturaActualMetroTextBox.AccessibleName" xml:space="preserve">
+    <value>Idioma actual.</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode2" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>126, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nomenclaturaActualMetroTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="nomenclaturaActualMetroTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 129</value>
+  </data>
+  <data name="nomenclaturaActualMetroTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="nomenclaturaActualMetroTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroTextBox.Name" xml:space="preserve">
+    <value>nomenclaturaActualMetroTextBox</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroTextBox.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nomenclaturaActualMetroTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="nuevoIdiomaMetroComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="nuevoIdiomaMetroComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="nuevoIdiomaMetroComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 314</value>
+  </data>
+  <data name="nuevoIdiomaMetroComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="nuevoIdiomaMetroComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroComboBox.Name" xml:space="preserve">
+    <value>nuevoIdiomaMetroComboBox</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroComboBox.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroComboBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="nuevaReferenciaMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nuevaReferenciaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="nuevaReferenciaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 258</value>
+  </data>
+  <data name="nuevaReferenciaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 25</value>
+  </data>
+  <data name="nuevaReferenciaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="nuevaReferenciaMetroLabel.Text" xml:space="preserve">
+    <value>Cambiar referencia cultural a:</value>
+  </data>
+  <data name="&gt;&gt;nuevaReferenciaMetroLabel.Name" xml:space="preserve">
+    <value>nuevaReferenciaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;nuevaReferenciaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nuevaReferenciaMetroLabel.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nuevaReferenciaMetroLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="nuevoIdiomaMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nuevoIdiomaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="nuevoIdiomaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 327</value>
+  </data>
+  <data name="nuevoIdiomaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 19</value>
+  </data>
+  <data name="nuevoIdiomaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="nuevoIdiomaMetroLabel.Text" xml:space="preserve">
+    <value>Idioma:</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroLabel.Name" xml:space="preserve">
+    <value>nuevoIdiomaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroLabel.Parent" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;nuevoIdiomaMetroLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 632</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;idiomasTableLayoutPanel.Name" xml:space="preserve">
+    <value>idiomasTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomasTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idiomasTableLayoutPanel.Parent" xml:space="preserve">
+    <value>idiomaMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomasTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="idiomasTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="referenciaActualMetroLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="idiomaActualMetroLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="idiomaActualMetroTextBox" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nuevaNomenclaturaMetroTextBox" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nomenclaturaActualMetroLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nuevaNomenclaturaMetroLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="nomenclaturaActualMetroTextBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nuevoIdiomaMetroComboBox" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nuevaReferenciaMetroLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="nuevoIdiomaMetroLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,30,Percent,50" /&gt;&lt;Rows Styles="Percent,10,Percent,10,Percent,10,Percent,15,Percent,10,Percent,10,Percent,35" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="idiomaMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="idiomaMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="idiomaMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 632</value>
+  </data>
+  <data name="idiomaMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;idiomaMetroPanel.Name" xml:space="preserve">
+    <value>idiomaMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomaMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;idiomaMetroPanel.Parent" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomaMetroPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="temaActualMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="temaActualMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="temaActualMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="temaActualMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 31</value>
+  </data>
+  <data name="temaActualMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="temaActualMetroLabel.Text" xml:space="preserve">
+    <value>Tema actual:  </value>
+  </data>
+  <data name="&gt;&gt;temaActualMetroLabel.Name" xml:space="preserve">
+    <value>temaActualMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;temaActualMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;temaActualMetroLabel.Parent" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;temaActualMetroLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mostrarTemaPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mostrarTemaPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 34</value>
+  </data>
+  <data name="mostrarTemaPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 88</value>
+  </data>
+  <data name="mostrarTemaPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="mostrarTemaPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;mostrarTemaPictureBox.Name" xml:space="preserve">
+    <value>mostrarTemaPictureBox</value>
+  </data>
+  <data name="&gt;&gt;mostrarTemaPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mostrarTemaPictureBox.Parent" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;mostrarTemaPictureBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="seleccioneTemaMetroLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="seleccioneTemaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="seleccioneTemaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 125</value>
+  </data>
+  <data name="seleccioneTemaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 63</value>
+  </data>
+  <data name="seleccioneTemaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="seleccioneTemaMetroLabel.Text" xml:space="preserve">
+    <value>Seleccione tema:</value>
+  </data>
+  <data name="&gt;&gt;seleccioneTemaMetroLabel.Name" xml:space="preserve">
+    <value>seleccioneTemaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;seleccioneTemaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;seleccioneTemaMetroLabel.Parent" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;seleccioneTemaMetroLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mostrarAyudaMetroLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="mostrarAyudaMetroLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 188</value>
+  </data>
+  <data name="mostrarAyudaMetroLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 63</value>
+  </data>
+  <data name="mostrarAyudaMetroLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="mostrarAyudaMetroLabel.Text" xml:space="preserve">
+    <value>Mostrar texto de ayuda lateral.</value>
+  </data>
+  <data name="mostrarAyudaMetroLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroLabel.Name" xml:space="preserve">
+    <value>mostrarAyudaMetroLabel</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroLabel.Parent" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mostrarAyudaMetroToggle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mostrarAyudaMetroToggle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="mostrarAyudaMetroToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 191</value>
+  </data>
+  <data name="mostrarAyudaMetroToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 57</value>
+  </data>
+  <data name="mostrarAyudaMetroToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="mostrarAyudaMetroToggle.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroToggle.Name" xml:space="preserve">
+    <value>mostrarAyudaMetroToggle</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroToggle.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroToggle.Parent" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;mostrarAyudaMetroToggle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="temaMetroComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="temaMetroComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="temaMetroComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 128</value>
+  </data>
+  <data name="temaMetroComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="temaMetroComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;temaMetroComboBox.Name" xml:space="preserve">
+    <value>temaMetroComboBox</value>
+  </data>
+  <data name="&gt;&gt;temaMetroComboBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;temaMetroComboBox.Parent" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;temaMetroComboBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 632</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;visualizacionTableLayoutPanel.Name" xml:space="preserve">
+    <value>visualizacionTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;visualizacionTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;visualizacionTableLayoutPanel.Parent" xml:space="preserve">
+    <value>visualizacionMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;visualizacionTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="visualizacionTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="temaActualMetroLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="2" /&gt;&lt;Control Name="mostrarTemaPictureBox" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="seleccioneTemaMetroLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="mostrarAyudaMetroLabel" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="mostrarAyudaMetroToggle" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="temaMetroComboBox" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,50,Percent,100" /&gt;&lt;Rows Styles="Percent,5,Percent,15,Percent,10,Percent,10,Percent,60" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="visualizacionMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="visualizacionMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="visualizacionMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 632</value>
+  </data>
+  <data name="visualizacionMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroPanel.Name" xml:space="preserve">
+    <value>visualizacionMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroPanel.Parent" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;visualizacionMetroPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="opcionesMetroPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="opcionesMetroPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 3</value>
+  </data>
+  <data name="opcionesMetroPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 632</value>
+  </data>
+  <data name="opcionesMetroPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Name" xml:space="preserve">
+    <value>opcionesMetroPanel</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.Parent" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;opcionesMetroPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 90</value>
+  </data>
+  <data name="formularioTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="formularioTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1052, 709</value>
+  </data>
+  <data name="formularioTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Name" xml:space="preserve">
+    <value>formularioTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formularioTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="formularioTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="botonesMetroPanel" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ayudaMetroLabel" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="aceptarMetroButton" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cancelarMetroButton" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="opcionesMetroPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,50,Percent,25" /&gt;&lt;Rows Styles="Percent,90,Percent,10" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="formularioMetroToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="formularioMetroStyleExtender.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>183, 17</value>
+  </metadata>
+  <metadata name="formularioMetroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>382, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 24</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1120, 829</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 400</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>34, 90, 34, 30</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Preferencias de la aplicación.</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroToolTip.Name" xml:space="preserve">
+    <value>formularioMetroToolTip</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroToolTip.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroToolTip, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleExtender.Name" xml:space="preserve">
+    <value>formularioMetroStyleExtender</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleExtender.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleExtender, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleManager.Name" xml:space="preserve">
+    <value>formularioMetroStyleManager</value>
+  </data>
+  <data name="&gt;&gt;formularioMetroStyleManager.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MetroPreferenciasForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>

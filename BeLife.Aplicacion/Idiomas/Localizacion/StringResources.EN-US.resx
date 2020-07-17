@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcercaDeForm_Aplicacion" xml:space="preserve">
+    <value>Application: BeLife.</value>
+  </data>
+  <data name="AcercaDeForm_Equipo" xml:space="preserve">
+    <value>Group members:</value>
+  </data>
+  <data name="AcercaDeForm_Profesor" xml:space="preserve">
+    <value>Teacher: {0}</value>
+  </data>
+  <data name="AcercaDeForm_ProgramadoPara" xml:space="preserve">
+    <value>programmed for:</value>
+  </data>
+  <data name="AcercaDeForm_Ramo" xml:space="preserve">
+    <value>Class: Development of desktop and management software</value>
+  </data>
+  <data name="AcercaDeForm_Version" xml:space="preserve">
+    <value>Version: v0.0.2</value>
+  </data>
+  <data name="Ayuda_CambiarColor" xml:space="preserve">
+    <value>Allows the user to change the style of the application, the available styles may vary between light colors and high contrast color.</value>
+  </data>
+  <data name="Ayuda_CambiarIdioma" xml:space="preserve">
+    <value>Allows change language between Spanish and English.</value>
+  </data>
+  <data name="Ayuda_ListadoClientes" xml:space="preserve">
+    <value>It allows you to search for clients by different criteria, these can be search by rut, by civil status, by sex or simply list the available clients.</value>
+  </data>
+  <data name="Ayuda_ListadoContratos" xml:space="preserve">
+    <value>It allows you to search for contracts, these can be by contract number, by customer's rout or by policy number.</value>
+  </data>
+  <data name="Ayuda_MaestroDeClientes" xml:space="preserve">
+    <value>This option allows to enter new clients, edit information of these or eliminate the information of a client that does not have contracts.</value>
+  </data>
+  <data name="Ayuda_MaestroDeContratos" xml:space="preserve">
+    <value>It allows you to carry out actions with contracts, you can create a new contract for a customer, edit the information of an existing contract or end the validity of an active contract.</value>
+  </data>
+  <data name="BuscarCliente_Existente" xml:space="preserve">
+    <value>The Client {0} already exists in the database.</value>
+  </data>
+  <data name="BuscarCliente_NoExiste" xml:space="preserve">
+    <value>The Client that tries to search is not registered in the database.</value>
+  </data>
+  <data name="BuscarContratoVigente_Existente" xml:space="preserve">
+    <value>The client {0} already has a contract with the plan {1}, this is valid until the {2}.</value>
+  </data>
+  <data name="BuscarContratoVigente_NoExiste" xml:space="preserve">
+    <value>The client does not have a current associated contract with the selected plan.</value>
+  </data>
+  <data name="BuscarContrato_Existente" xml:space="preserve">
+    <value>Contract number {0} is already registered in the database.</value>
+  </data>
+  <data name="BuscarContrato_NoExiste" xml:space="preserve">
+    <value>The contract you are trying to find does not exist in the database</value>
+  </data>
+  <data name="FiltrosClientes_PorEstadoCivil" xml:space="preserve">
+    <value>By civil status.</value>
+  </data>
+  <data name="FiltrosClientes_PorRut" xml:space="preserve">
+    <value>Per customer's DNI.</value>
+  </data>
+  <data name="FiltrosClientes_PorSexo" xml:space="preserve">
+    <value>By sex.</value>
+  </data>
+  <data name="FiltrosClientes_SinFiltro" xml:space="preserve">
+    <value>Unfiltered.</value>
+  </data>
+  <data name="FiltrosContratos_PorNumeroContrato" xml:space="preserve">
+    <value>By contract number.</value>
+  </data>
+  <data name="FiltrosContratos_PorNumeroDePoliza" xml:space="preserve">
+    <value>By policy number.</value>
+  </data>
+  <data name="FiltrosContratos_PorRutCliente" xml:space="preserve">
+    <value>Per customer's DNI.</value>
+  </data>
+  <data name="FiltrosContratos_SinFiltro" xml:space="preserve">
+    <value>Unfiltered.</value>
+  </data>
+  <data name="GrabarCliente_Correctamente" xml:space="preserve">
+    <value>The client {0} has been {1}.</value>
+  </data>
+  <data name="GrabarCliente_Error" xml:space="preserve">
+    <value>The client {0} has not been possible {1}, try again.</value>
+  </data>
+  <data name="GrabarContrato_Correctamente" xml:space="preserve">
+    <value>Contract number {0} was {1} correctly.</value>
+  </data>
+  <data name="GrabarContrato_Error" xml:space="preserve">
+    <value>Contract {0} has not been possible {0}, try again.</value>
+  </data>
+  <data name="Grabar_AccionActualizado" xml:space="preserve">
+    <value>updated</value>
+  </data>
+  <data name="Grabar_AccionActualizar" xml:space="preserve">
+    <value>update</value>
+  </data>
+  <data name="Grabar_AccionCreado" xml:space="preserve">
+    <value>created</value>
+  </data>
+  <data name="Grabar_AccionCrear" xml:space="preserve">
+    <value>create</value>
+  </data>
+  <data name="Grabar_AccionEliminado" xml:space="preserve">
+    <value>deleted</value>
+  </data>
+  <data name="Grabar_AccionEliminar" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="Idioma_Español" xml:space="preserve">
+    <value>Spanish (Spain)</value>
+  </data>
+  <data name="Idioma_Ingles" xml:space="preserve">
+    <value>English (United States)</value>
+  </data>
+  <data name="Idioma_Predeterminado" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="ItemInicial_EstadoCivil_Correcto" xml:space="preserve">
+    <value>Select a civil status.</value>
+  </data>
+  <data name="ItemInicial_EstadoCivil_Error" xml:space="preserve">
+    <value>Error loading civil status.</value>
+  </data>
+  <data name="ItemInicial_Plan_Correcto" xml:space="preserve">
+    <value>Select a plan.</value>
+  </data>
+  <data name="ItemInicial_Plan_Error" xml:space="preserve">
+    <value>Error loading plan.</value>
+  </data>
+  <data name="ItemInicial_Sexo_Correcto" xml:space="preserve">
+    <value>Select a sex.</value>
+  </data>
+  <data name="ItemInicial_Sexo_Error" xml:space="preserve">
+    <value>Error load sex.</value>
+  </data>
+  <data name="ListadoClientes_CampoEstadoCivil" xml:space="preserve">
+    <value>Civil status:</value>
+  </data>
+  <data name="ListadoClientes_CampoRut" xml:space="preserve">
+    <value>DNI:</value>
+  </data>
+  <data name="ListadoClientes_CampoSexo" xml:space="preserve">
+    <value>Sex:</value>
+  </data>
+  <data name="MaestroClientes_Eliminar_NoPuedeEliminarCliente" xml:space="preserve">
+    <value>You can not delete the client {0}, because the client has {1} registered contracts.</value>
+  </data>
+  <data name="MaestroClientes_Eliminar_PreguntaSiQuiereEliminar" xml:space="preserve">
+    <value>Are you sure to delete the client {0}?</value>
+  </data>
+  <data name="MaestroClientes_MensajeModoBusqueda" xml:space="preserve">
+    <value>Looking for a customer.</value>
+  </data>
+  <data name="MaestroClientes_MensajeModoEdicion" xml:space="preserve">
+    <value>Editing customer information {0}.</value>
+  </data>
+  <data name="MaestroClientes_MensajeModoNuevoCliente" xml:space="preserve">
+    <value>Creating new customer.</value>
+  </data>
+  <data name="MaestroClientes_MensajeRutExistente" xml:space="preserve">
+    <value>The entered DNI already exists in the database.</value>
+  </data>
+  <data name="MaestroClientes_MensajeRutNoExiste" xml:space="preserve">
+    <value>The entered DNI does not exist.</value>
+  </data>
+  <data name="MensajeValidacion_CampoVacio" xml:space="preserve">
+    <value>The field {0} can't be empty.</value>
+  </data>
+  <data name="MensajeValidacion_FormatoRutIncorrecto" xml:space="preserve">
+    <value>Incorrect DNI format, example 12345678-9.</value>
+  </data>
+  <data name="MensajeValidacion_MenorDeEdad" xml:space="preserve">
+    <value>The customer must be at least 18 years old.</value>
+  </data>
+  <data name="MensajeValidacion_RutIncorrecto" xml:space="preserve">
+    <value>The entered DNI is not correct.</value>
+  </data>
+  <data name="MensajeValidacion_SeleccionCombobox" xml:space="preserve">
+    <value>You must select a {0}.</value>
+  </data>
+  <data name="MensajeValidacion_SoloNumeros" xml:space="preserve">
+    <value>The base value field admits only numbers.</value>
+  </data>
+  <data name="MensajeValidacion_ValorBaseMenorQueCero" xml:space="preserve">
+    <value>The base value of the plan must be greater than 0 UF.</value>
+  </data>
+  <data name="Msgbox_Abortar" xml:space="preserve">
+    <value>&amp;Abort</value>
+  </data>
+  <data name="Msgbox_Aceptar" xml:space="preserve">
+    <value>&amp;Ok</value>
+  </data>
+  <data name="Msgbox_Cancelar" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Msgbox_Ignorar" xml:space="preserve">
+    <value>&amp;Ignore</value>
+  </data>
+  <data name="Msgbox_No" xml:space="preserve">
+    <value>&amp;No</value>
+  </data>
+  <data name="Msgbox_Reintentar" xml:space="preserve">
+    <value>&amp;Retry</value>
+  </data>
+  <data name="Msgbox_si" xml:space="preserve">
+    <value>&amp;Yes</value>
+  </data>
+  <data name="principalForm_MensajeSalida" xml:space="preserve">
+    <value>Are you sure to exit?</value>
+  </data>
+  <data name="ResultadoDataGrid_ItemsEncontrados" xml:space="preserve">
+    <value>{0} {1} found.</value>
+  </data>
+  <data name="ResultadoDataGrid_SinRegistros" xml:space="preserve">
+    <value>There are no {0} available.</value>
+  </data>
+  <data name="ResultadoDataGrid_TipoCliente" xml:space="preserve">
+    <value>customers</value>
+  </data>
+  <data name="ResultadoDataGrid_TipoContrato" xml:space="preserve">
+    <value>contracts</value>
+  </data>
+  <data name="Tema_Claro" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Tema_Mensaje_ClaroOscuro" xml:space="preserve">
+    <value>Change to dark theme.</value>
+  </data>
+  <data name="Tema_Mensaje_OscuroClaro" xml:space="preserve">
+    <value>Change to light theme.</value>
+  </data>
+  <data name="Tema_Oscuro" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="TituloMensajes_Atencion" xml:space="preserve">
+    <value>Attention.</value>
+  </data>
+  <data name="TituloMensajes_Error" xml:space="preserve">
+    <value>Error.</value>
+  </data>
+  <data name="ToolTip_ListadoDeClientes" xml:space="preserve">
+    <value>Insurance agent teaching existing plans to his clients.</value>
+  </data>
+  <data name="ToolTip_ListadoDeContratos" xml:space="preserve">
+    <value>Insurance agent showing existing contracts to his clients.</value>
+  </data>
+  <data name="ToolTip_LogoBeLiffe" xml:space="preserve">
+    <value>BeLife insurance company.</value>
+  </data>
+  <data name="ToolTip_PrincipalForm" xml:space="preserve">
+    <value>Insurance consultant offering a marriage insurance policy.</value>
+  </data>
+  <data name="ToolTip_SalirButton" xml:space="preserve">
+    <value>Exit to aplication.</value>
+  </data>
+  <data name="ListadoContratos_EtiquetaValorFiltro_PorNumeroDeContrato" xml:space="preserve">
+    <value>Contract number:</value>
+  </data>
+  <data name="ListadoContratos_EtiquetaValorFiltro_PorNumeroDePoliza" xml:space="preserve">
+    <value>Policy number:</value>
+  </data>
+  <data name="ListadoContratos_EtiquetaValorFiltro_PorRut" xml:space="preserve">
+    <value>DNI:</value>
+  </data>
+  <data name="MaestroContratos_MensajeCambioFechaDETerminoDeContrato" xml:space="preserve">
+    <value>The contract end date has been set to {0}, proceed to record the contract information by pressing the [Save] button, if you cancel the action with the [Cancel] button, the contract term will have no effect and it will continue.</value>
+  </data>
+  <data name="MaestroContratos_MensajeDatosClienteSinConfirmar" xml:space="preserve">
+    <value>You have not confirmed the search of the customer information, please press the search DNI button to load the information.</value>
+  </data>
+  <data name="MaestroContratos_MensajeModoBusqueda" xml:space="preserve">
+    <value>Looking for a contract.</value>
+  </data>
+  <data name="MaestroContratos_MensajeModoEdicion" xml:space="preserve">
+    <value>Editing client contract {0}.</value>
+  </data>
+  <data name="MaestroContratos_MensajeModoNuevoContrato" xml:space="preserve">
+    <value>Creating a new contract.</value>
+  </data>
+  <data name="MaestroContratos_MensajePreguntaDETerminoDeContrato" xml:space="preserve">
+    <value>Are you sure you are terminating contract number {0} of customer {1} assigned to plan {2}?</value>
+  </data>
+  <data name="TextoPrima_Edad" xml:space="preserve">
+    <value>Age : </value>
+  </data>
+  <data name="TextoPrima_EstadoCivil" xml:space="preserve">
+    <value>Civil status : </value>
+  </data>
+  <data name="TextoPrima_Recargo" xml:space="preserve">
+    <value>Subcharges --&gt; </value>
+  </data>
+  <data name="TextoPrima_Sexo" xml:space="preserve">
+    <value>Sex : </value>
+  </data>
+  <data name="ToolTip_AcercaDEForm" xml:space="preserve">
+    <value>Shows information about BeLife application.</value>
+  </data>
+  <data name="ToolTip_MaestroDeClientes" xml:space="preserve">
+    <value>Image representing a group of insurance advisors waiting for the attention of a customer.</value>
+  </data>
+  <data name="ToolTip_MaestroDeContratos" xml:space="preserve">
+    <value>Image representing a contract signed between a client and his insurance advisor.</value>
+  </data>
+  <data name="ToolTip_PreferenciasForm" xml:space="preserve">
+    <value>Allows you to change the settings of the application.</value>
+  </data>
+</root>
